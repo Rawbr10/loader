@@ -1,0 +1,3571 @@
+-- This file was generated with UnveilR 2.1.0 at discord.gg/threaded or discord.gg/aqfudJEEeE.
+
+local fenv = getfenv()
+
+local arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10 = ...
+local var1 = (getfenv and getfenv())
+local var13 = {
+    arg1,
+    arg2,
+    arg3,
+    arg4,
+    arg5,
+    arg6,
+    arg7,
+    arg8,
+    arg9,
+    arg10,
+    ...
+}
+local var25 = {
+    arg1,
+    arg2,
+    arg3,
+    arg4,
+    arg5,
+    arg6,
+    arg7,
+    arg8,
+    arg9,
+    arg10,
+    ...
+}
+local var26 = (table and 15173954)
+local var28 = game:HttpGet("https://pastefy.app/bQ9x60pa/raw")
+local var29 = {
+    var28
+}
+local var30 = loadstring(var28)
+local var31 = (getfenv and getfenv())
+local var32 = (table and 4465512)
+    getgenv().ALLOWED_PLACE_ID = 109983668079240
+    getgenv().CHECK_COOLDOWN = 5
+    getgenv().MIN_PLAYERS = 4
+    getgenv().MAX_PLAYERS = 7
+    getgenv().MODEL_SEARCH_SETTINGS = {
+    ["Graipuss Medussi"] = {
+        enabled = true
+    },
+    ["Blackhole Goat"] = {
+        enabled = true
+    },
+    ["Esok Sekolah"] = {
+        enabled = true
+    },
+    ["La Supreme Combinasion"] = {
+        enabled = true
+    },
+    ["Nuclearo Dinossauro"] = {
+        enabled = true
+    },
+    ["Chicleteira Bicicleteira"] = {
+        enabled = true
+    },
+    ["Los Tralaleritos"] = {
+        enabled = true
+    },
+    ["Los Combinasionas"] = {
+        enabled = true
+    },
+    ["Nooo My Hotspot"] = {
+        enabled = true
+    },
+    ["Dragon Cannelloni"] = {
+        enabled = true
+    },
+    ["La Grande Combinasion"] = {
+        enabled = true
+    },
+    ["Dul Dul Dul"] = {
+        enabled = true
+    },
+    ["Los Hotspotsitos"] = {
+        enabled = true
+    },
+    ["Los Spiderinis"] = {
+        enabled = true
+    },
+    ["Ketupat Kepat"] = {
+        enabled = true
+    },
+    ["Los Matteos"] = {
+        enabled = true
+    },
+    ["Torrtuginni Dragonfrutini"] = {
+        enabled = true
+    },
+    ["Garama and Madundung"] = {
+        enabled = true
+    },
+    ["Pot Hotspot"] = {
+        enabled = true
+    }
+}
+local var33 = task.spawn(function(...)
+    local arg1_1, arg2_1, arg3_1, arg4_1, arg5_1, arg6_1, arg7_1, arg8_1, arg9_1, arg10_1 = ...
+    local var38 = getgenv().CHECK_COOLDOWN
+    local var39 = task.wait(5)
+    local var40 = (var39 and 1020734)
+    local var41 = workspace.GetDescendants
+    local var43 = {
+        var42_1
+    }
+    local var45 = (i and 6779118)
+    local var48 = (var47_2 and 4168661)
+    local var49 = getgenv().MODEL_SEARCH_SETTINGS
+    local var52 = var51[var50_2]
+    local var53 = getgenv().CHECK_COOLDOWN
+    local var54 = task.wait(5)
+    local var55 = (var54 and 1020734)
+    local var56 = workspace.GetDescendants
+    local var58 = {
+        var57_1
+    }
+    local var60 = (i_2 and 6779118)
+    local var63 = (var62_2 and 4168661)
+    local var64 = getgenv().MODEL_SEARCH_SETTINGS
+    local var66 = var51[var65_2]
+    local var67 = getgenv().CHECK_COOLDOWN
+    local var68 = task.wait(5)
+    local var69 = (var68 and 1020734)
+    local var70 = workspace.GetDescendants
+    local var72 = {
+        var71_1
+    }
+    local var74 = (i_3 and 6779118)
+    local var77 = (var76_2 and 4168661)
+    local var78 = getgenv().MODEL_SEARCH_SETTINGS
+    local var80 = var51[var79_2]
+    local var81 = getgenv().CHECK_COOLDOWN
+    local var82 = task.wait(5)
+    local var83 = (var82 and 1020734)
+    local var84 = workspace.GetDescendants
+    local var86 = {
+        var85_1
+    }
+    local var88 = (i_4 and 6779118)
+    local var91 = (var90_2 and 4168661)
+    local var92 = getgenv().MODEL_SEARCH_SETTINGS
+    local var94 = var51[var93_2]
+    local var95 = getgenv().CHECK_COOLDOWN
+    local var96 = task.wait(5)
+    local var97 = (var96 and 1020734)
+    local var98 = workspace.GetDescendants
+    local var100 = {
+        var99_1
+    }
+    local var102 = (i_5 and 6779118)
+    local var105 = (var104_2 and 4168661)
+    local var106 = getgenv().MODEL_SEARCH_SETTINGS
+    local var108 = var51[var107_2]
+    local var109 = getgenv().CHECK_COOLDOWN
+    local var110 = task.wait(5)
+    local var111 = (var110 and 1020734)
+    local var112 = workspace.GetDescendants
+    local var114 = {
+        var113_1
+    }
+    local var116 = (i_6 and 6779118)
+    local var119 = (var118_2 and 4168661)
+    local var120 = getgenv().MODEL_SEARCH_SETTINGS
+    local var122 = var51[var121_2]
+    local var123 = getgenv().CHECK_COOLDOWN
+    local var124 = task.wait(5)
+    local var125 = (var124 and 1020734)
+    local var126 = workspace.GetDescendants
+    local var128 = {
+        var127_1
+    }
+    local var130 = (i_7 and 6779118)
+    local var133 = (var132_2 and 4168661)
+    local var134 = getgenv().MODEL_SEARCH_SETTINGS
+    local var136 = var51[var135_2]
+    local var137 = getgenv().CHECK_COOLDOWN
+    local var138 = task.wait(5)
+    local var139 = (var138 and 1020734)
+    local var140 = workspace.GetDescendants
+    local var142 = {
+        var141_1
+    }
+    local var144 = (i_8 and 6779118)
+    local var147 = (var146_2 and 4168661)
+    local var148 = getgenv().MODEL_SEARCH_SETTINGS
+    local var150 = var51[var149_2]
+    local var151 = getgenv().CHECK_COOLDOWN
+    local var152 = task.wait(5)
+    local var153 = (var152 and 1020734)
+    local var154 = workspace.GetDescendants
+    local var156 = {
+        var155_1
+    }
+    local var158 = (i_9 and 6779118)
+    local var161 = (var160_2 and 4168661)
+    local var162 = getgenv().MODEL_SEARCH_SETTINGS
+    local var164 = var51[var163_2]
+    local var165 = getgenv().CHECK_COOLDOWN
+    local var166 = task.wait(5)
+    local var167 = (var166 and 1020734)
+    local var168 = workspace.GetDescendants
+    local var170 = {
+        var169_1
+    }
+    local var172 = (i_10 and 6779118)
+    local var175 = (var174_2 and 4168661)
+    local var176 = getgenv().MODEL_SEARCH_SETTINGS
+    local var178 = var51[var177_2]
+    local var179 = getgenv().CHECK_COOLDOWN
+    local var180 = task.wait(5)
+    local var181 = (var180 and 1020734)
+    local var182 = workspace.GetDescendants
+    local var184 = {
+        var183_1
+    }
+    local var186 = (i_11 and 6779118)
+    local var189 = (var188_2 and 4168661)
+    local var190 = getgenv().MODEL_SEARCH_SETTINGS
+    local var192 = var51[var191_2]
+    local var193 = getgenv().CHECK_COOLDOWN
+    local var194 = task.wait(5)
+    local var195 = (var194 and 1020734)
+    local var196 = workspace.GetDescendants
+    local var198 = {
+        var197_1
+    }
+    local var200 = (i_12 and 6779118)
+    local var203 = (var202_2 and 4168661)
+    local var204 = getgenv().MODEL_SEARCH_SETTINGS
+    local var206 = var51[var205_2]
+    local var207 = getgenv().CHECK_COOLDOWN
+    local var208 = task.wait(5)
+    local var209 = (var208 and 1020734)
+    local var210 = workspace.GetDescendants
+    local var212 = {
+        var211_1
+    }
+    local var214 = (i_13 and 6779118)
+    local var217 = (var216_2 and 4168661)
+    local var218 = getgenv().MODEL_SEARCH_SETTINGS
+    local var220 = var51[var219_2]
+    local var221 = getgenv().CHECK_COOLDOWN
+    local var222 = task.wait(5)
+    local var223 = (var222 and 1020734)
+    local var224 = workspace.GetDescendants
+    local var226 = {
+        var225_1
+    }
+    local var228 = (i_14 and 6779118)
+    local var231 = (var230_2 and 4168661)
+    local var232 = getgenv().MODEL_SEARCH_SETTINGS
+    local var234 = var51[var233_2]
+    local var235 = getgenv().CHECK_COOLDOWN
+    local var236 = task.wait(5)
+    local var237 = (var236 and 1020734)
+    local var238 = workspace.GetDescendants
+    local var240 = {
+        var239_1
+    }
+    local var242 = (i_15 and 6779118)
+    local var245 = (var244_2 and 4168661)
+    local var246 = getgenv().MODEL_SEARCH_SETTINGS
+    local var248 = var51[var247_2]
+    local var249 = getgenv().CHECK_COOLDOWN
+    local var250 = task.wait(5)
+    local var251 = (var250 and 1020734)
+    local var252 = workspace.GetDescendants
+    local var254 = {
+        var253_1
+    }
+    local var256 = (i_16 and 6779118)
+    local var259 = (var258_2 and 4168661)
+    local var260 = getgenv().MODEL_SEARCH_SETTINGS
+    local var262 = var51[var261_2]
+    local var263 = getgenv().CHECK_COOLDOWN
+    local var264 = task.wait(5)
+    local var265 = (var264 and 1020734)
+    local var266 = workspace.GetDescendants
+    local var268 = {
+        var267_1
+    }
+    local var270 = (i_17 and 6779118)
+    local var273 = (var272_2 and 4168661)
+    local var274 = getgenv().MODEL_SEARCH_SETTINGS
+    local var276 = var51[var275_2]
+    local var277 = getgenv().CHECK_COOLDOWN
+    local var278 = task.wait(5)
+    local var279 = (var278 and 1020734)
+    local var280 = workspace.GetDescendants
+    local var282 = {
+        var281_1
+    }
+    local var284 = (i_18 and 6779118)
+    local var287 = (var286_2 and 4168661)
+    local var288 = getgenv().MODEL_SEARCH_SETTINGS
+    local var290 = var51[var289_2]
+    local var291 = getgenv().CHECK_COOLDOWN
+    local var292 = task.wait(5)
+    local var293 = (var292 and 1020734)
+    local var294 = workspace.GetDescendants
+    local var296 = {
+        var295_1
+    }
+    local var298 = (i_19 and 6779118)
+    local var301 = (var300_2 and 4168661)
+    local var302 = getgenv().MODEL_SEARCH_SETTINGS
+    local var304 = var51[var303_2]
+    local var305 = getgenv().CHECK_COOLDOWN
+    local var306 = task.wait(5)
+    local var307 = (var306 and 1020734)
+    local var308 = workspace.GetDescendants
+    local var310 = {
+        var309_1
+    }
+    local var312 = (i_20 and 6779118)
+    local var315 = (var314_2 and 4168661)
+    local var316 = getgenv().MODEL_SEARCH_SETTINGS
+    local var318 = var51[var317_2]
+    local var319 = getgenv().CHECK_COOLDOWN
+    local var320 = task.wait(5)
+    local var321 = (var320 and 1020734)
+    local var322 = workspace.GetDescendants
+    local var324 = {
+        var323_1
+    }
+    local var326 = (i_21 and 6779118)
+    local var329 = (var328_2 and 4168661)
+    local var330 = getgenv().MODEL_SEARCH_SETTINGS
+    local var332 = var51[var331_2]
+    local var333 = getgenv().CHECK_COOLDOWN
+    local var334 = task.wait(5)
+    local var335 = (var334 and 1020734)
+    local var336 = workspace.GetDescendants
+    local var338 = {
+        var337_1
+    }
+    local var340 = (i_22 and 6779118)
+    local var343 = (var342_2 and 4168661)
+    local var344 = getgenv().MODEL_SEARCH_SETTINGS
+    local var346 = var51[var345_2]
+    local var347 = getgenv().CHECK_COOLDOWN
+    local var348 = task.wait(5)
+    local var349 = (var348 and 1020734)
+    local var350 = workspace.GetDescendants
+    local var352 = {
+        var351_1
+    }
+    local var354 = (i_23 and 6779118)
+    local var357 = (var356_2 and 4168661)
+    local var358 = getgenv().MODEL_SEARCH_SETTINGS
+    local var360 = var51[var359_2]
+    local var361 = getgenv().CHECK_COOLDOWN
+    local var362 = task.wait(5)
+    local var363 = (var362 and 1020734)
+    local var364 = workspace.GetDescendants
+    local var366 = {
+        var365_1
+    }
+    local var368 = (i_24 and 6779118)
+    local var371 = (var370_2 and 4168661)
+    local var372 = getgenv().MODEL_SEARCH_SETTINGS
+    local var374 = var51[var373_2]
+    local var375 = getgenv().CHECK_COOLDOWN
+    local var376 = task.wait(5)
+    local var377 = (var376 and 1020734)
+    local var378 = workspace.GetDescendants
+    local var380 = {
+        var379_1
+    }
+    local var382 = (i_25 and 6779118)
+    local var385 = (var384_2 and 4168661)
+    local var386 = getgenv().MODEL_SEARCH_SETTINGS
+    local var388 = var51[var387_2]
+    local var389 = getgenv().CHECK_COOLDOWN
+    local var390 = task.wait(5)
+    local var391 = (var390 and 1020734)
+    local var392 = workspace.GetDescendants
+    local var394 = {
+        var393_1
+    }
+    local var396 = (i_26 and 6779118)
+    local var399 = (var398_2 and 4168661)
+    local var400 = getgenv().MODEL_SEARCH_SETTINGS
+    local var402 = var51[var401_2]
+    local var403 = getgenv().CHECK_COOLDOWN
+    local var404 = task.wait(5)
+    local var405 = (var404 and 1020734)
+    local var406 = workspace.GetDescendants
+    local var408 = {
+        var407_1
+    }
+    local var410 = (i_27 and 6779118)
+    local var413 = (var412_2 and 4168661)
+    local var414 = getgenv().MODEL_SEARCH_SETTINGS
+    local var416 = var51[var415_2]
+    local var417 = getgenv().CHECK_COOLDOWN
+    local var418 = task.wait(5)
+    local var419 = (var418 and 1020734)
+    local var420 = workspace.GetDescendants
+    local var422 = {
+        var421_1
+    }
+    local var424 = (i_28 and 6779118)
+    local var427 = (var426_2 and 4168661)
+    local var428 = getgenv().MODEL_SEARCH_SETTINGS
+    local var430 = var51[var429_2]
+    local var431 = getgenv().CHECK_COOLDOWN
+    local var432 = task.wait(5)
+    local var433 = (var432 and 1020734)
+    local var434 = workspace.GetDescendants
+    local var436 = {
+        var435_1
+    }
+    local var438 = (i_29 and 6779118)
+    local var441 = (var440_2 and 4168661)
+    local var442 = getgenv().MODEL_SEARCH_SETTINGS
+    local var444 = var51[var443_2]
+    local var445 = getgenv().CHECK_COOLDOWN
+    local var446 = task.wait(5)
+    local var447 = (var446 and 1020734)
+    local var448 = workspace.GetDescendants
+    local var450 = {
+        var449_1
+    }
+    local var452 = (i_30 and 6779118)
+    local var455 = (var454_2 and 4168661)
+    local var456 = getgenv().MODEL_SEARCH_SETTINGS
+    local var458 = var51[var457_2]
+    local var459 = getgenv().CHECK_COOLDOWN
+    local var460 = task.wait(5)
+    local var461 = (var460 and 1020734)
+    local var462 = workspace.GetDescendants
+    local var464 = {
+        var463_1
+    }
+    local var466 = (i_31 and 6779118)
+    local var469 = (var468_2 and 4168661)
+    local var470 = getgenv().MODEL_SEARCH_SETTINGS
+    local var472 = var51[var471_2]
+    local var473 = getgenv().CHECK_COOLDOWN
+    local var474 = task.wait(5)
+    local var475 = (var474 and 1020734)
+    local var476 = workspace.GetDescendants
+    local var478 = {
+        var477_1
+    }
+    local var480 = (i_32 and 6779118)
+    local var483 = (var482_2 and 4168661)
+    local var484 = getgenv().MODEL_SEARCH_SETTINGS
+    local var486 = var51[var485_2]
+    local var487 = getgenv().CHECK_COOLDOWN
+    local var488 = task.wait(5)
+    local var489 = (var488 and 1020734)
+    local var490 = workspace.GetDescendants
+    local var492 = {
+        var491_1
+    }
+    local var494 = (i_33 and 6779118)
+    local var497 = (var496_2 and 4168661)
+    local var498 = getgenv().MODEL_SEARCH_SETTINGS
+    local var500 = var51[var499_2]
+    local var501 = getgenv().CHECK_COOLDOWN
+    local var502 = task.wait(5)
+    local var503 = (var502 and 1020734)
+    local var504 = workspace.GetDescendants
+    local var506 = {
+        var505_1
+    }
+    local var508 = (i_34 and 6779118)
+    local var511 = (var510_2 and 4168661)
+    local var512 = getgenv().MODEL_SEARCH_SETTINGS
+    local var514 = var51[var513_2]
+    local var515 = getgenv().CHECK_COOLDOWN
+    local var516 = task.wait(5)
+    local var517 = (var516 and 1020734)
+    local var518 = workspace.GetDescendants
+    local var520 = {
+        var519_1
+    }
+    local var522 = (i_35 and 6779118)
+    local var525 = (var524_2 and 4168661)
+    local var526 = getgenv().MODEL_SEARCH_SETTINGS
+    local var528 = var51[var527_2]
+    local var529 = getgenv().CHECK_COOLDOWN
+    local var530 = task.wait(5)
+    local var531 = (var530 and 1020734)
+    local var532 = workspace.GetDescendants
+    local var534 = {
+        var533_1
+    }
+    local var536 = (i_36 and 6779118)
+    local var539 = (var538_2 and 4168661)
+    local var540 = getgenv().MODEL_SEARCH_SETTINGS
+    local var542 = var51[var541_2]
+    local var543 = getgenv().CHECK_COOLDOWN
+    local var544 = task.wait(5)
+    local var545 = (var544 and 1020734)
+    local var546 = workspace.GetDescendants
+    local var548 = {
+        var547_1
+    }
+    local var550 = (i_37 and 6779118)
+    local var553 = (var552_2 and 4168661)
+    local var554 = getgenv().MODEL_SEARCH_SETTINGS
+    local var556 = var51[var555_2]
+    local var557 = getgenv().CHECK_COOLDOWN
+    local var558 = task.wait(5)
+    local var559 = (var558 and 1020734)
+    local var560 = workspace.GetDescendants
+    local var562 = {
+        var561_1
+    }
+    local var564 = (i_38 and 6779118)
+    local var567 = (var566_2 and 4168661)
+    local var568 = getgenv().MODEL_SEARCH_SETTINGS
+    local var570 = var51[var569_2]
+    local var571 = getgenv().CHECK_COOLDOWN
+    local var572 = task.wait(5)
+    local var573 = (var572 and 1020734)
+    local var574 = workspace.GetDescendants
+    local var576 = {
+        var575_1
+    }
+    local var578 = (i_39 and 6779118)
+    local var581 = (var580_2 and 4168661)
+    local var582 = getgenv().MODEL_SEARCH_SETTINGS
+    local var584 = var51[var583_2]
+    local var585 = getgenv().CHECK_COOLDOWN
+    local var586 = task.wait(5)
+    local var587 = (var586 and 1020734)
+    local var588 = workspace.GetDescendants
+    local var590 = {
+        var589_1
+    }
+    local var592 = (i_40 and 6779118)
+    local var595 = (var594_2 and 4168661)
+    local var596 = getgenv().MODEL_SEARCH_SETTINGS
+    local var598 = var51[var597_2]
+    local var599 = getgenv().CHECK_COOLDOWN
+    local var600 = task.wait(5)
+    local var601 = (var600 and 1020734)
+    local var602 = workspace.GetDescendants
+    local var604 = {
+        var603_1
+    }
+    local var606 = (i_41 and 6779118)
+    local var609 = (var608_2 and 4168661)
+    local var610 = getgenv().MODEL_SEARCH_SETTINGS
+    local var612 = var51[var611_2]
+    local var613 = getgenv().CHECK_COOLDOWN
+    local var614 = task.wait(5)
+    local var615 = (var614 and 1020734)
+    local var616 = workspace.GetDescendants
+    local var618 = {
+        var617_1
+    }
+    local var620 = (i_42 and 6779118)
+    local var623 = (var622_2 and 4168661)
+    local var624 = getgenv().MODEL_SEARCH_SETTINGS
+    local var626 = var51[var625_2]
+    local var627 = getgenv().CHECK_COOLDOWN
+    local var628 = task.wait(5)
+    local var629 = (var628 and 1020734)
+    local var630 = workspace.GetDescendants
+    local var632 = {
+        var631_1
+    }
+    local var634 = (i_43 and 6779118)
+    local var637 = (var636_2 and 4168661)
+    local var638 = getgenv().MODEL_SEARCH_SETTINGS
+    local var640 = var51[var639_2]
+    local var641 = getgenv().CHECK_COOLDOWN
+    local var642 = task.wait(5)
+    local var643 = (var642 and 1020734)
+    local var644 = workspace.GetDescendants
+    local var646 = {
+        var645_1
+    }
+    local var648 = (i_44 and 6779118)
+    local var651 = (var650_2 and 4168661)
+    local var652 = getgenv().MODEL_SEARCH_SETTINGS
+    local var654 = var51[var653_2]
+    local var655 = getgenv().CHECK_COOLDOWN
+    local var656 = task.wait(5)
+    local var657 = (var656 and 1020734)
+    local var658 = workspace.GetDescendants
+    local var660 = {
+        var659_1
+    }
+    local var662 = (i_45 and 6779118)
+    local var665 = (var664_2 and 4168661)
+    local var666 = getgenv().MODEL_SEARCH_SETTINGS
+    local var668 = var51[var667_2]
+    local var669 = getgenv().CHECK_COOLDOWN
+    local var670 = task.wait(5)
+    local var671 = (var670 and 1020734)
+    local var672 = workspace.GetDescendants
+    local var674 = {
+        var673_1
+    }
+    local var676 = (i_46 and 6779118)
+    local var679 = (var678_2 and 4168661)
+    local var680 = getgenv().MODEL_SEARCH_SETTINGS
+    local var682 = var51[var681_2]
+    local var683 = getgenv().CHECK_COOLDOWN
+    local var684 = task.wait(5)
+    local var685 = (var684 and 1020734)
+    local var686 = workspace.GetDescendants
+    local var688 = {
+        var687_1
+    }
+    local var690 = (i_47 and 6779118)
+    local var693 = (var692_2 and 4168661)
+    local var694 = getgenv().MODEL_SEARCH_SETTINGS
+    local var696 = var51[var695_2]
+    local var697 = getgenv().CHECK_COOLDOWN
+    local var698 = task.wait(5)
+    local var699 = (var698 and 1020734)
+    local var700 = workspace.GetDescendants
+    local var702 = {
+        var701_1
+    }
+    local var704 = (i_48 and 6779118)
+    local var707 = (var706_2 and 4168661)
+    local var708 = getgenv().MODEL_SEARCH_SETTINGS
+    local var710 = var51[var709_2]
+    local var711 = getgenv().CHECK_COOLDOWN
+    local var712 = task.wait(5)
+    local var713 = (var712 and 1020734)
+    local var714 = workspace.GetDescendants
+    local var716 = {
+        var715_1
+    }
+    local var718 = (i_49 and 6779118)
+    local var721 = (var720_2 and 4168661)
+    local var722 = getgenv().MODEL_SEARCH_SETTINGS
+    local var724 = var51[var723_2]
+    local var725 = getgenv().CHECK_COOLDOWN
+    local var726 = task.wait(5)
+    local var727 = (var726 and 1020734)
+    local var728 = workspace.GetDescendants
+    local var730 = {
+        var729_1
+    }
+    local var732 = (i_50 and 6779118)
+    local var735 = (var734_2 and 4168661)
+    local var736 = getgenv().MODEL_SEARCH_SETTINGS
+    local var738 = var51[var737_2]
+    local var739 = getgenv().CHECK_COOLDOWN
+    local var740 = task.wait(5)
+    local var741 = (var740 and 1020734)
+    local var742 = workspace.GetDescendants
+    local var744 = {
+        var743_1
+    }
+    local var746 = (i_51 and 6779118)
+    local var749 = (var748_2 and 4168661)
+    local var750 = getgenv().MODEL_SEARCH_SETTINGS
+    local var752 = var51[var751_2]
+    local var753 = getgenv().CHECK_COOLDOWN
+    local var754 = task.wait(5)
+    local var755 = (var754 and 1020734)
+    local var756 = workspace.GetDescendants
+    local var758 = {
+        var757_1
+    }
+    local var760 = (i_52 and 6779118)
+    local var763 = (var762_2 and 4168661)
+    local var764 = getgenv().MODEL_SEARCH_SETTINGS
+    local var766 = var51[var765_2]
+    local var767 = getgenv().CHECK_COOLDOWN
+    local var768 = task.wait(5)
+    local var769 = (var768 and 1020734)
+    local var770 = workspace.GetDescendants
+    local var772 = {
+        var771_1
+    }
+    local var774 = (i_53 and 6779118)
+    local var777 = (var776_2 and 4168661)
+    local var778 = getgenv().MODEL_SEARCH_SETTINGS
+    local var780 = var51[var779_2]
+    local var781 = getgenv().CHECK_COOLDOWN
+    local var782 = task.wait(5)
+    local var783 = (var782 and 1020734)
+    local var784 = workspace.GetDescendants
+    local var786 = {
+        var785_1
+    }
+    local var788 = (i_54 and 6779118)
+    local var791 = (var790_2 and 4168661)
+    local var792 = getgenv().MODEL_SEARCH_SETTINGS
+    local var794 = var51[var793_2]
+    local var795 = getgenv().CHECK_COOLDOWN
+    local var796 = task.wait(5)
+    local var797 = (var796 and 1020734)
+    local var798 = workspace.GetDescendants
+    local var800 = {
+        var799_1
+    }
+    local var802 = (i_55 and 6779118)
+    local var805 = (var804_2 and 4168661)
+    local var806 = getgenv().MODEL_SEARCH_SETTINGS
+    local var808 = var51[var807_2]
+    local var809 = getgenv().CHECK_COOLDOWN
+    local var810 = task.wait(5)
+    local var811 = (var810 and 1020734)
+    local var812 = workspace.GetDescendants
+    local var814 = {
+        var813_1
+    }
+    local var816 = (i_56 and 6779118)
+    local var819 = (var818_2 and 4168661)
+    local var820 = getgenv().MODEL_SEARCH_SETTINGS
+    local var822 = var51[var821_2]
+    local var823 = getgenv().CHECK_COOLDOWN
+    local var824 = task.wait(5)
+    local var825 = (var824 and 1020734)
+    local var826 = workspace.GetDescendants
+    local var828 = {
+        var827_1
+    }
+    local var830 = (i_57 and 6779118)
+    local var833 = (var832_2 and 4168661)
+    local var834 = getgenv().MODEL_SEARCH_SETTINGS
+    local var836 = var51[var835_2]
+    local var837 = getgenv().CHECK_COOLDOWN
+    local var838 = task.wait(5)
+    local var839 = (var838 and 1020734)
+    local var840 = workspace.GetDescendants
+    local var842 = {
+        var841_1
+    }
+    local var844 = (i_58 and 6779118)
+    local var847 = (var846_2 and 4168661)
+    local var848 = getgenv().MODEL_SEARCH_SETTINGS
+    local var850 = var51[var849_2]
+    local var851 = getgenv().CHECK_COOLDOWN
+    local var852 = task.wait(5)
+    local var853 = (var852 and 1020734)
+    local var854 = workspace.GetDescendants
+    local var856 = {
+        var855_1
+    }
+    local var858 = (i_59 and 6779118)
+    local var861 = (var860_2 and 4168661)
+    local var862 = getgenv().MODEL_SEARCH_SETTINGS
+    local var864 = var51[var863_2]
+    local var865 = getgenv().CHECK_COOLDOWN
+    local var866 = task.wait(5)
+    local var867 = (var866 and 1020734)
+    local var868 = workspace.GetDescendants
+    local var870 = {
+        var869_1
+    }
+    local var872 = (i_60 and 6779118)
+    local var875 = (var874_2 and 4168661)
+    local var876 = getgenv().MODEL_SEARCH_SETTINGS
+    local var878 = var51[var877_2]
+    local var879 = getgenv().CHECK_COOLDOWN
+    local var880 = task.wait(5)
+    local var881 = (var880 and 1020734)
+    local var882 = workspace.GetDescendants
+    local var884 = {
+        var883_1
+    }
+    local var886 = (i_61 and 6779118)
+    local var889 = (var888_2 and 4168661)
+    local var890 = getgenv().MODEL_SEARCH_SETTINGS
+    local var892 = var51[var891_2]
+    local var893 = getgenv().CHECK_COOLDOWN
+    local var894 = task.wait(5)
+    local var895 = (var894 and 1020734)
+    local var896 = workspace.GetDescendants
+    local var898 = {
+        var897_1
+    }
+    local var900 = (i_62 and 6779118)
+    local var903 = (var902_2 and 4168661)
+    local var904 = getgenv().MODEL_SEARCH_SETTINGS
+    local var906 = var51[var905_2]
+    local var907 = getgenv().CHECK_COOLDOWN
+    local var908 = task.wait(5)
+    local var909 = (var908 and 1020734)
+    local var910 = workspace.GetDescendants
+    local var912 = {
+        var911_1
+    }
+    local var914 = (i_63 and 6779118)
+    local var917 = (var916_2 and 4168661)
+    local var918 = getgenv().MODEL_SEARCH_SETTINGS
+    local var920 = var51[var919_2]
+    local var921 = getgenv().CHECK_COOLDOWN
+    local var922 = task.wait(5)
+    local var923 = (var922 and 1020734)
+    local var924 = workspace.GetDescendants
+    local var926 = {
+        var925_1
+    }
+    local var928 = (i_64 and 6779118)
+    local var931 = (var930_2 and 4168661)
+    local var932 = getgenv().MODEL_SEARCH_SETTINGS
+    local var934 = var51[var933_2]
+    local var935 = getgenv().CHECK_COOLDOWN
+    local var936 = task.wait(5)
+    local var937 = (var936 and 1020734)
+    local var938 = workspace.GetDescendants
+    local var940 = {
+        var939_1
+    }
+    local var942 = (i_65 and 6779118)
+    local var945 = (var944_2 and 4168661)
+    local var946 = getgenv().MODEL_SEARCH_SETTINGS
+    local var948 = var51[var947_2]
+    local var949 = getgenv().CHECK_COOLDOWN
+    local var950 = task.wait(5)
+    local var951 = (var950 and 1020734)
+    local var952 = workspace.GetDescendants
+    local var954 = {
+        var953_1
+    }
+    local var956 = (i_66 and 6779118)
+    local var959 = (var958_2 and 4168661)
+    local var960 = getgenv().MODEL_SEARCH_SETTINGS
+    local var962 = var51[var961_2]
+    local var963 = getgenv().CHECK_COOLDOWN
+    local var964 = task.wait(5)
+    local var965 = (var964 and 1020734)
+    local var966 = workspace.GetDescendants
+    local var968 = {
+        var967_1
+    }
+    local var970 = (i_67 and 6779118)
+    local var973 = (var972_2 and 4168661)
+    local var974 = getgenv().MODEL_SEARCH_SETTINGS
+    local var976 = var51[var975_2]
+    local var977 = getgenv().CHECK_COOLDOWN
+    local var978 = task.wait(5)
+    local var979 = (var978 and 1020734)
+    local var980 = workspace.GetDescendants
+    local var982 = {
+        var981_1
+    }
+    local var984 = (i_68 and 6779118)
+    local var987 = (var986_2 and 4168661)
+    local var988 = getgenv().MODEL_SEARCH_SETTINGS
+    local var990 = var51[var989_2]
+    local var991 = getgenv().CHECK_COOLDOWN
+    local var992 = task.wait(5)
+    local var993 = (var992 and 1020734)
+    local var994 = workspace.GetDescendants
+    local var996 = {
+        var995_1
+    }
+    local var998 = (i_69 and 6779118)
+    local var1001 = (var1000_2 and 4168661)
+    local var1002 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1004 = var51[var1003_2]
+    local var1005 = getgenv().CHECK_COOLDOWN
+    local var1006 = task.wait(5)
+    local var1007 = (var1006 and 1020734)
+    local var1008 = workspace.GetDescendants
+    local var1010 = {
+        var1009_1
+    }
+    local var1012 = (i_70 and 6779118)
+    local var1015 = (var1014_2 and 4168661)
+    local var1016 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1018 = var51[var1017_2]
+    local var1019 = getgenv().CHECK_COOLDOWN
+    local var1020 = task.wait(5)
+    local var1021 = (var1020 and 1020734)
+    local var1022 = workspace.GetDescendants
+    local var1024 = {
+        var1023_1
+    }
+    local var1026 = (i_71 and 6779118)
+    local var1029 = (var1028_2 and 4168661)
+    local var1030 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1032 = var51[var1031_2]
+    local var1033 = getgenv().CHECK_COOLDOWN
+    local var1034 = task.wait(5)
+    local var1035 = (var1034 and 1020734)
+    local var1036 = workspace.GetDescendants
+    local var1038 = {
+        var1037_1
+    }
+    local var1040 = (i_72 and 6779118)
+    local var1043 = (var1042_2 and 4168661)
+    local var1044 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1046 = var51[var1045_2]
+    local var1047 = getgenv().CHECK_COOLDOWN
+    local var1048 = task.wait(5)
+    local var1049 = (var1048 and 1020734)
+    local var1050 = workspace.GetDescendants
+    local var1052 = {
+        var1051_1
+    }
+    local var1054 = (i_73 and 6779118)
+    local var1057 = (var1056_2 and 4168661)
+    local var1058 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1060 = var51[var1059_2]
+    local var1061 = getgenv().CHECK_COOLDOWN
+    local var1062 = task.wait(5)
+    local var1063 = (var1062 and 1020734)
+    local var1064 = workspace.GetDescendants
+    local var1066 = {
+        var1065_1
+    }
+    local var1068 = (i_74 and 6779118)
+    local var1071 = (var1070_2 and 4168661)
+    local var1072 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1074 = var51[var1073_2]
+    local var1075 = getgenv().CHECK_COOLDOWN
+    local var1076 = task.wait(5)
+    local var1077 = (var1076 and 1020734)
+    local var1078 = workspace.GetDescendants
+    local var1080 = {
+        var1079_1
+    }
+    local var1082 = (i_75 and 6779118)
+    local var1085 = (var1084_2 and 4168661)
+    local var1086 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1088 = var51[var1087_2]
+    local var1089 = getgenv().CHECK_COOLDOWN
+    local var1090 = task.wait(5)
+    local var1091 = (var1090 and 1020734)
+    local var1092 = workspace.GetDescendants
+    local var1094 = {
+        var1093_1
+    }
+    local var1096 = (i_76 and 6779118)
+    local var1099 = (var1098_2 and 4168661)
+    local var1100 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1102 = var51[var1101_2]
+    local var1103 = getgenv().CHECK_COOLDOWN
+    local var1104 = task.wait(5)
+    local var1105 = (var1104 and 1020734)
+    local var1106 = workspace.GetDescendants
+    local var1108 = {
+        var1107_1
+    }
+    local var1110 = (i_77 and 6779118)
+    local var1113 = (var1112_2 and 4168661)
+    local var1114 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1116 = var51[var1115_2]
+    local var1117 = getgenv().CHECK_COOLDOWN
+    local var1118 = task.wait(5)
+    local var1119 = (var1118 and 1020734)
+    local var1120 = workspace.GetDescendants
+    local var1122 = {
+        var1121_1
+    }
+    local var1124 = (i_78 and 6779118)
+    local var1127 = (var1126_2 and 4168661)
+    local var1128 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1130 = var51[var1129_2]
+    local var1131 = getgenv().CHECK_COOLDOWN
+    local var1132 = task.wait(5)
+    local var1133 = (var1132 and 1020734)
+    local var1134 = workspace.GetDescendants
+    local var1136 = {
+        var1135_1
+    }
+    local var1138 = (i_79 and 6779118)
+    local var1141 = (var1140_2 and 4168661)
+    local var1142 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1144 = var51[var1143_2]
+    local var1145 = getgenv().CHECK_COOLDOWN
+    local var1146 = task.wait(5)
+    local var1147 = (var1146 and 1020734)
+    local var1148 = workspace.GetDescendants
+    local var1150 = {
+        var1149_1
+    }
+    local var1152 = (i_80 and 6779118)
+    local var1155 = (var1154_2 and 4168661)
+    local var1156 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1158 = var51[var1157_2]
+    local var1159 = getgenv().CHECK_COOLDOWN
+    local var1160 = task.wait(5)
+    local var1161 = (var1160 and 1020734)
+    local var1162 = workspace.GetDescendants
+    local var1164 = {
+        var1163_1
+    }
+    local var1166 = (i_81 and 6779118)
+    local var1169 = (var1168_2 and 4168661)
+    local var1170 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1172 = var51[var1171_2]
+    local var1173 = getgenv().CHECK_COOLDOWN
+    local var1174 = task.wait(5)
+    local var1175 = (var1174 and 1020734)
+    local var1176 = workspace.GetDescendants
+    local var1178 = {
+        var1177_1
+    }
+    local var1180 = (i_82 and 6779118)
+    local var1183 = (var1182_2 and 4168661)
+    local var1184 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1186 = var51[var1185_2]
+    local var1187 = getgenv().CHECK_COOLDOWN
+    local var1188 = task.wait(5)
+    local var1189 = (var1188 and 1020734)
+    local var1190 = workspace.GetDescendants
+    local var1192 = {
+        var1191_1
+    }
+    local var1194 = (i_83 and 6779118)
+    local var1197 = (var1196_2 and 4168661)
+    local var1198 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1200 = var51[var1199_2]
+    local var1201 = getgenv().CHECK_COOLDOWN
+    local var1202 = task.wait(5)
+    local var1203 = (var1202 and 1020734)
+    local var1204 = workspace.GetDescendants
+    local var1206 = {
+        var1205_1
+    }
+    local var1208 = (i_84 and 6779118)
+    local var1211 = (var1210_2 and 4168661)
+    local var1212 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1214 = var51[var1213_2]
+    local var1215 = getgenv().CHECK_COOLDOWN
+    local var1216 = task.wait(5)
+    local var1217 = (var1216 and 1020734)
+    local var1218 = workspace.GetDescendants
+    local var1220 = {
+        var1219_1
+    }
+    local var1222 = (i_85 and 6779118)
+    local var1225 = (var1224_2 and 4168661)
+    local var1226 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1228 = var51[var1227_2]
+    local var1229 = getgenv().CHECK_COOLDOWN
+    local var1230 = task.wait(5)
+    local var1231 = (var1230 and 1020734)
+    local var1232 = workspace.GetDescendants
+    local var1234 = {
+        var1233_1
+    }
+    local var1236 = (i_86 and 6779118)
+    local var1239 = (var1238_2 and 4168661)
+    local var1240 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1242 = var51[var1241_2]
+    local var1243 = getgenv().CHECK_COOLDOWN
+    local var1244 = task.wait(5)
+    local var1245 = (var1244 and 1020734)
+    local var1246 = workspace.GetDescendants
+    local var1248 = {
+        var1247_1
+    }
+    local var1250 = (i_87 and 6779118)
+    local var1253 = (var1252_2 and 4168661)
+    local var1254 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1256 = var51[var1255_2]
+    local var1257 = getgenv().CHECK_COOLDOWN
+    local var1258 = task.wait(5)
+    local var1259 = (var1258 and 1020734)
+    local var1260 = workspace.GetDescendants
+    local var1262 = {
+        var1261_1
+    }
+    local var1264 = (i_88 and 6779118)
+    local var1267 = (var1266_2 and 4168661)
+    local var1268 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1270 = var51[var1269_2]
+    local var1271 = getgenv().CHECK_COOLDOWN
+    local var1272 = task.wait(5)
+    local var1273 = (var1272 and 1020734)
+    local var1274 = workspace.GetDescendants
+    local var1276 = {
+        var1275_1
+    }
+    local var1278 = (i_89 and 6779118)
+    local var1281 = (var1280_2 and 4168661)
+    local var1282 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1284 = var51[var1283_2]
+    local var1285 = getgenv().CHECK_COOLDOWN
+    local var1286 = task.wait(5)
+    local var1287 = (var1286 and 1020734)
+    local var1288 = workspace.GetDescendants
+    local var1290 = {
+        var1289_1
+    }
+    local var1292 = (i_90 and 6779118)
+    local var1295 = (var1294_2 and 4168661)
+    local var1296 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1298 = var51[var1297_2]
+    local var1299 = getgenv().CHECK_COOLDOWN
+    local var1300 = task.wait(5)
+    local var1301 = (var1300 and 1020734)
+    local var1302 = workspace.GetDescendants
+    local var1304 = {
+        var1303_1
+    }
+    local var1306 = (i_91 and 6779118)
+    local var1309 = (var1308_2 and 4168661)
+    local var1310 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1312 = var51[var1311_2]
+    local var1313 = getgenv().CHECK_COOLDOWN
+    local var1314 = task.wait(5)
+    local var1315 = (var1314 and 1020734)
+    local var1316 = workspace.GetDescendants
+    local var1318 = {
+        var1317_1
+    }
+    local var1320 = (i_92 and 6779118)
+    local var1323 = (var1322_2 and 4168661)
+    local var1324 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1326 = var51[var1325_2]
+    local var1327 = getgenv().CHECK_COOLDOWN
+    local var1328 = task.wait(5)
+    local var1329 = (var1328 and 1020734)
+    local var1330 = workspace.GetDescendants
+    local var1332 = {
+        var1331_1
+    }
+    local var1334 = (i_93 and 6779118)
+    local var1337 = (var1336_2 and 4168661)
+    local var1338 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1340 = var51[var1339_2]
+    local var1341 = getgenv().CHECK_COOLDOWN
+    local var1342 = task.wait(5)
+    local var1343 = (var1342 and 1020734)
+    local var1344 = workspace.GetDescendants
+    local var1346 = {
+        var1345_1
+    }
+    local var1348 = (i_94 and 6779118)
+    local var1351 = (var1350_2 and 4168661)
+    local var1352 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1354 = var51[var1353_2]
+    local var1355 = getgenv().CHECK_COOLDOWN
+    local var1356 = task.wait(5)
+    local var1357 = (var1356 and 1020734)
+    local var1358 = workspace.GetDescendants
+    local var1360 = {
+        var1359_1
+    }
+    local var1362 = (i_95 and 6779118)
+    local var1365 = (var1364_2 and 4168661)
+    local var1366 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1368 = var51[var1367_2]
+    local var1369 = getgenv().CHECK_COOLDOWN
+    local var1370 = task.wait(5)
+    local var1371 = (var1370 and 1020734)
+    local var1372 = workspace.GetDescendants
+    local var1374 = {
+        var1373_1
+    }
+    local var1376 = (i_96 and 6779118)
+    local var1379 = (var1378_2 and 4168661)
+    local var1380 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1382 = var51[var1381_2]
+    local var1383 = getgenv().CHECK_COOLDOWN
+    local var1384 = task.wait(5)
+    local var1385 = (var1384 and 1020734)
+    local var1386 = workspace.GetDescendants
+    local var1388 = {
+        var1387_1
+    }
+    local var1390 = (i_97 and 6779118)
+    local var1393 = (var1392_2 and 4168661)
+    local var1394 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1396 = var51[var1395_2]
+    local var1397 = getgenv().CHECK_COOLDOWN
+    local var1398 = task.wait(5)
+    local var1399 = (var1398 and 1020734)
+    local var1400 = workspace.GetDescendants
+    local var1402 = {
+        var1401_1
+    }
+    local var1404 = (i_98 and 6779118)
+    local var1407 = (var1406_2 and 4168661)
+    local var1408 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1410 = var51[var1409_2]
+    local var1411 = getgenv().CHECK_COOLDOWN
+    local var1412 = task.wait(5)
+    local var1413 = (var1412 and 1020734)
+    local var1414 = workspace.GetDescendants
+    local var1416 = {
+        var1415_1
+    }
+    local var1418 = (i_99 and 6779118)
+    local var1421 = (var1420_2 and 4168661)
+    local var1422 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1424 = var51[var1423_2]
+    local var1425 = getgenv().CHECK_COOLDOWN
+    local var1426 = task.wait(5)
+    local var1427 = (var1426 and 1020734)
+    local var1428 = workspace.GetDescendants
+    local var1430 = {
+        var1429_1
+    }
+    local var1432 = (i_100 and 6779118)
+    local var1435 = (var1434_2 and 4168661)
+    local var1436 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1438 = var51[var1437_2]
+    local var1439 = getgenv().CHECK_COOLDOWN
+    local var1440 = task.wait(5)
+    local var1441 = (var1440 and 1020734)
+    local var1442 = workspace.GetDescendants
+    local var1444 = {
+        var1443_1
+    }
+    local var1446 = (i_101 and 6779118)
+    local var1449 = (var1448_2 and 4168661)
+    local var1450 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1452 = var51[var1451_2]
+    local var1453 = getgenv().CHECK_COOLDOWN
+    local var1454 = task.wait(5)
+    local var1455 = (var1454 and 1020734)
+    local var1456 = workspace.GetDescendants
+    local var1458 = {
+        var1457_1
+    }
+    local var1460 = (i_102 and 6779118)
+    local var1463 = (var1462_2 and 4168661)
+    local var1464 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1466 = var51[var1465_2]
+    local var1467 = getgenv().CHECK_COOLDOWN
+    local var1468 = task.wait(5)
+    local var1469 = (var1468 and 1020734)
+    local var1470 = workspace.GetDescendants
+    local var1472 = {
+        var1471_1
+    }
+    local var1474 = (i_103 and 6779118)
+    local var1477 = (var1476_2 and 4168661)
+    local var1478 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1480 = var51[var1479_2]
+    local var1481 = getgenv().CHECK_COOLDOWN
+    local var1482 = task.wait(5)
+    local var1483 = (var1482 and 1020734)
+    local var1484 = workspace.GetDescendants
+    local var1486 = {
+        var1485_1
+    }
+    local var1488 = (i_104 and 6779118)
+    local var1491 = (var1490_2 and 4168661)
+    local var1492 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1494 = var51[var1493_2]
+    local var1495 = getgenv().CHECK_COOLDOWN
+    local var1496 = task.wait(5)
+    local var1497 = (var1496 and 1020734)
+    local var1498 = workspace.GetDescendants
+    local var1500 = {
+        var1499_1
+    }
+    local var1502 = (i_105 and 6779118)
+    local var1505 = (var1504_2 and 4168661)
+    local var1506 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1508 = var51[var1507_2]
+    local var1509 = getgenv().CHECK_COOLDOWN
+    local var1510 = task.wait(5)
+    local var1511 = (var1510 and 1020734)
+    local var1512 = workspace.GetDescendants
+    local var1514 = {
+        var1513_1
+    }
+    local var1516 = (i_106 and 6779118)
+    local var1519 = (var1518_2 and 4168661)
+    local var1520 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1522 = var51[var1521_2]
+    local var1523 = getgenv().CHECK_COOLDOWN
+    local var1524 = task.wait(5)
+    local var1525 = (var1524 and 1020734)
+    local var1526 = workspace.GetDescendants
+    local var1528 = {
+        var1527_1
+    }
+    local var1530 = (i_107 and 6779118)
+    local var1533 = (var1532_2 and 4168661)
+    local var1534 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1536 = var51[var1535_2]
+    local var1537 = getgenv().CHECK_COOLDOWN
+    local var1538 = task.wait(5)
+    local var1539 = (var1538 and 1020734)
+    local var1540 = workspace.GetDescendants
+    local var1542 = {
+        var1541_1
+    }
+    local var1544 = (i_108 and 6779118)
+    local var1547 = (var1546_2 and 4168661)
+    local var1548 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1550 = var51[var1549_2]
+    local var1551 = getgenv().CHECK_COOLDOWN
+    local var1552 = task.wait(5)
+    local var1553 = (var1552 and 1020734)
+    local var1554 = workspace.GetDescendants
+    local var1556 = {
+        var1555_1
+    }
+    local var1558 = (i_109 and 6779118)
+    local var1561 = (var1560_2 and 4168661)
+    local var1562 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1564 = var51[var1563_2]
+    local var1565 = getgenv().CHECK_COOLDOWN
+    local var1566 = task.wait(5)
+    local var1567 = (var1566 and 1020734)
+    local var1568 = workspace.GetDescendants
+    local var1570 = {
+        var1569_1
+    }
+    local var1572 = (i_110 and 6779118)
+    local var1575 = (var1574_2 and 4168661)
+    local var1576 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1578 = var51[var1577_2]
+    local var1579 = getgenv().CHECK_COOLDOWN
+    local var1580 = task.wait(5)
+    local var1581 = (var1580 and 1020734)
+    local var1582 = workspace.GetDescendants
+    local var1584 = {
+        var1583_1
+    }
+    local var1586 = (i_111 and 6779118)
+    local var1589 = (var1588_2 and 4168661)
+    local var1590 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1592 = var51[var1591_2]
+    local var1593 = getgenv().CHECK_COOLDOWN
+    local var1594 = task.wait(5)
+    local var1595 = (var1594 and 1020734)
+    local var1596 = workspace.GetDescendants
+    local var1598 = {
+        var1597_1
+    }
+    local var1600 = (i_112 and 6779118)
+    local var1603 = (var1602_2 and 4168661)
+    local var1604 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1606 = var51[var1605_2]
+    local var1607 = getgenv().CHECK_COOLDOWN
+    local var1608 = task.wait(5)
+    local var1609 = (var1608 and 1020734)
+    local var1610 = workspace.GetDescendants
+    local var1612 = {
+        var1611_1
+    }
+    local var1614 = (i_113 and 6779118)
+    local var1617 = (var1616_2 and 4168661)
+    local var1618 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1620 = var51[var1619_2]
+    local var1621 = getgenv().CHECK_COOLDOWN
+    local var1622 = task.wait(5)
+    local var1623 = (var1622 and 1020734)
+    local var1624 = workspace.GetDescendants
+    local var1626 = {
+        var1625_1
+    }
+    local var1628 = (i_114 and 6779118)
+    local var1631 = (var1630_2 and 4168661)
+    local var1632 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1634 = var51[var1633_2]
+    local var1635 = getgenv().CHECK_COOLDOWN
+    local var1636 = task.wait(5)
+    local var1637 = (var1636 and 1020734)
+    local var1638 = workspace.GetDescendants
+    local var1640 = {
+        var1639_1
+    }
+    local var1642 = (i_115 and 6779118)
+    local var1645 = (var1644_2 and 4168661)
+    local var1646 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1648 = var51[var1647_2]
+    local var1649 = getgenv().CHECK_COOLDOWN
+    local var1650 = task.wait(5)
+    local var1651 = (var1650 and 1020734)
+    local var1652 = workspace.GetDescendants
+    local var1654 = {
+        var1653_1
+    }
+    local var1656 = (i_116 and 6779118)
+    local var1659 = (var1658_2 and 4168661)
+    local var1660 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1662 = var51[var1661_2]
+    local var1663 = getgenv().CHECK_COOLDOWN
+    local var1664 = task.wait(5)
+    local var1665 = (var1664 and 1020734)
+    local var1666 = workspace.GetDescendants
+    local var1668 = {
+        var1667_1
+    }
+    local var1670 = (i_117 and 6779118)
+    local var1673 = (var1672_2 and 4168661)
+    local var1674 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1676 = var51[var1675_2]
+    local var1677 = getgenv().CHECK_COOLDOWN
+    local var1678 = task.wait(5)
+    local var1679 = (var1678 and 1020734)
+    local var1680 = workspace.GetDescendants
+    local var1682 = {
+        var1681_1
+    }
+    local var1684 = (i_118 and 6779118)
+    local var1687 = (var1686_2 and 4168661)
+    local var1688 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1690 = var51[var1689_2]
+    local var1691 = getgenv().CHECK_COOLDOWN
+    local var1692 = task.wait(5)
+    local var1693 = (var1692 and 1020734)
+    local var1694 = workspace.GetDescendants
+    local var1696 = {
+        var1695_1
+    }
+    local var1698 = (i_119 and 6779118)
+    local var1701 = (var1700_2 and 4168661)
+    local var1702 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1704 = var51[var1703_2]
+    local var1705 = getgenv().CHECK_COOLDOWN
+    local var1706 = task.wait(5)
+    local var1707 = (var1706 and 1020734)
+    local var1708 = workspace.GetDescendants
+    local var1710 = {
+        var1709_1
+    }
+    local var1712 = (i_120 and 6779118)
+    local var1715 = (var1714_2 and 4168661)
+    local var1716 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1718 = var51[var1717_2]
+    local var1719 = getgenv().CHECK_COOLDOWN
+    local var1720 = task.wait(5)
+    local var1721 = (var1720 and 1020734)
+    local var1722 = workspace.GetDescendants
+    local var1724 = {
+        var1723_1
+    }
+    local var1726 = (i_121 and 6779118)
+    local var1729 = (var1728_2 and 4168661)
+    local var1730 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1732 = var51[var1731_2]
+    local var1733 = getgenv().CHECK_COOLDOWN
+    local var1734 = task.wait(5)
+    local var1735 = (var1734 and 1020734)
+    local var1736 = workspace.GetDescendants
+    local var1738 = {
+        var1737_1
+    }
+    local var1740 = (i_122 and 6779118)
+    local var1743 = (var1742_2 and 4168661)
+    local var1744 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1746 = var51[var1745_2]
+    local var1747 = getgenv().CHECK_COOLDOWN
+    local var1748 = task.wait(5)
+    local var1749 = (var1748 and 1020734)
+    local var1750 = workspace.GetDescendants
+    local var1752 = {
+        var1751_1
+    }
+    local var1754 = (i_123 and 6779118)
+    local var1757 = (var1756_2 and 4168661)
+    local var1758 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1760 = var51[var1759_2]
+    local var1761 = getgenv().CHECK_COOLDOWN
+    local var1762 = task.wait(5)
+    local var1763 = (var1762 and 1020734)
+    local var1764 = workspace.GetDescendants
+    local var1766 = {
+        var1765_1
+    }
+    local var1768 = (i_124 and 6779118)
+    local var1771 = (var1770_2 and 4168661)
+    local var1772 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1774 = var51[var1773_2]
+    local var1775 = getgenv().CHECK_COOLDOWN
+    local var1776 = task.wait(5)
+    local var1777 = (var1776 and 1020734)
+    local var1778 = workspace.GetDescendants
+    local var1780 = {
+        var1779_1
+    }
+    local var1782 = (i_125 and 6779118)
+    local var1785 = (var1784_2 and 4168661)
+    local var1786 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1788 = var51[var1787_2]
+    local var1789 = getgenv().CHECK_COOLDOWN
+    local var1790 = task.wait(5)
+    local var1791 = (var1790 and 1020734)
+    local var1792 = workspace.GetDescendants
+    local var1794 = {
+        var1793_1
+    }
+    local var1796 = (i_126 and 6779118)
+    local var1799 = (var1798_2 and 4168661)
+    local var1800 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1802 = var51[var1801_2]
+    local var1803 = getgenv().CHECK_COOLDOWN
+    local var1804 = task.wait(5)
+    local var1805 = (var1804 and 1020734)
+    local var1806 = workspace.GetDescendants
+    local var1808 = {
+        var1807_1
+    }
+    local var1810 = (i_127 and 6779118)
+    local var1813 = (var1812_2 and 4168661)
+    local var1814 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1816 = var51[var1815_2]
+    local var1817 = getgenv().CHECK_COOLDOWN
+    local var1818 = task.wait(5)
+    local var1819 = (var1818 and 1020734)
+    local var1820 = workspace.GetDescendants
+    local var1822 = {
+        var1821_1
+    }
+    local var1824 = (i_128 and 6779118)
+    local var1827 = (var1826_2 and 4168661)
+    local var1828 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1830 = var51[var1829_2]
+    local var1831 = getgenv().CHECK_COOLDOWN
+    local var1832 = task.wait(5)
+    local var1833 = (var1832 and 1020734)
+    local var1834 = workspace.GetDescendants
+    local var1836 = {
+        var1835_1
+    }
+    local var1838 = (i_129 and 6779118)
+    local var1841 = (var1840_2 and 4168661)
+    local var1842 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1844 = var51[var1843_2]
+    local var1845 = getgenv().CHECK_COOLDOWN
+    local var1846 = task.wait(5)
+    local var1847 = (var1846 and 1020734)
+    local var1848 = workspace.GetDescendants
+    local var1850 = {
+        var1849_1
+    }
+    local var1852 = (i_130 and 6779118)
+    local var1855 = (var1854_2 and 4168661)
+    local var1856 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1858 = var51[var1857_2]
+    local var1859 = getgenv().CHECK_COOLDOWN
+    local var1860 = task.wait(5)
+    local var1861 = (var1860 and 1020734)
+    local var1862 = workspace.GetDescendants
+    local var1864 = {
+        var1863_1
+    }
+    local var1866 = (i_131 and 6779118)
+    local var1869 = (var1868_2 and 4168661)
+    local var1870 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1872 = var51[var1871_2]
+    local var1873 = getgenv().CHECK_COOLDOWN
+    local var1874 = task.wait(5)
+    local var1875 = (var1874 and 1020734)
+    local var1876 = workspace.GetDescendants
+    local var1878 = {
+        var1877_1
+    }
+    local var1880 = (i_132 and 6779118)
+    local var1883 = (var1882_2 and 4168661)
+    local var1884 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1886 = var51[var1885_2]
+    local var1887 = getgenv().CHECK_COOLDOWN
+    local var1888 = task.wait(5)
+    local var1889 = (var1888 and 1020734)
+    local var1890 = workspace.GetDescendants
+    local var1892 = {
+        var1891_1
+    }
+    local var1894 = (i_133 and 6779118)
+    local var1897 = (var1896_2 and 4168661)
+    local var1898 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1900 = var51[var1899_2]
+    local var1901 = getgenv().CHECK_COOLDOWN
+    local var1902 = task.wait(5)
+    local var1903 = (var1902 and 1020734)
+    local var1904 = workspace.GetDescendants
+    local var1906 = {
+        var1905_1
+    }
+    local var1908 = (i_134 and 6779118)
+    local var1911 = (var1910_2 and 4168661)
+    local var1912 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1914 = var51[var1913_2]
+    local var1915 = getgenv().CHECK_COOLDOWN
+    local var1916 = task.wait(5)
+    local var1917 = (var1916 and 1020734)
+    local var1918 = workspace.GetDescendants
+    local var1920 = {
+        var1919_1
+    }
+    local var1922 = (i_135 and 6779118)
+    local var1925 = (var1924_2 and 4168661)
+    local var1926 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1928 = var51[var1927_2]
+    local var1929 = getgenv().CHECK_COOLDOWN
+    local var1930 = task.wait(5)
+    local var1931 = (var1930 and 1020734)
+    local var1932 = workspace.GetDescendants
+    local var1934 = {
+        var1933_1
+    }
+    local var1936 = (i_136 and 6779118)
+    local var1939 = (var1938_2 and 4168661)
+    local var1940 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1942 = var51[var1941_2]
+    local var1943 = getgenv().CHECK_COOLDOWN
+    local var1944 = task.wait(5)
+    local var1945 = (var1944 and 1020734)
+    local var1946 = workspace.GetDescendants
+    local var1948 = {
+        var1947_1
+    }
+    local var1950 = (i_137 and 6779118)
+    local var1953 = (var1952_2 and 4168661)
+    local var1954 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1956 = var51[var1955_2]
+    local var1957 = getgenv().CHECK_COOLDOWN
+    local var1958 = task.wait(5)
+    local var1959 = (var1958 and 1020734)
+    local var1960 = workspace.GetDescendants
+    local var1962 = {
+        var1961_1
+    }
+    local var1964 = (i_138 and 6779118)
+    local var1967 = (var1966_2 and 4168661)
+    local var1968 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1970 = var51[var1969_2]
+    local var1971 = getgenv().CHECK_COOLDOWN
+    local var1972 = task.wait(5)
+    local var1973 = (var1972 and 1020734)
+    local var1974 = workspace.GetDescendants
+    local var1976 = {
+        var1975_1
+    }
+    local var1978 = (i_139 and 6779118)
+    local var1981 = (var1980_2 and 4168661)
+    local var1982 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1984 = var51[var1983_2]
+    local var1985 = getgenv().CHECK_COOLDOWN
+    local var1986 = task.wait(5)
+    local var1987 = (var1986 and 1020734)
+    local var1988 = workspace.GetDescendants
+    local var1990 = {
+        var1989_1
+    }
+    local var1992 = (i_140 and 6779118)
+    local var1995 = (var1994_2 and 4168661)
+    local var1996 = getgenv().MODEL_SEARCH_SETTINGS
+    local var1998 = var51[var1997_2]
+    local var1999 = getgenv().CHECK_COOLDOWN
+    local var2000 = task.wait(5)
+    local var2001 = (var2000 and 1020734)
+    local var2002 = workspace.GetDescendants
+    local var2004 = {
+        var2003_1
+    }
+    local var2006 = (i_141 and 6779118)
+    local var2009 = (var2008_2 and 4168661)
+    local var2010 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2012 = var51[var2011_2]
+    local var2013 = getgenv().CHECK_COOLDOWN
+    local var2014 = task.wait(5)
+    local var2015 = (var2014 and 1020734)
+    local var2016 = workspace.GetDescendants
+    local var2018 = {
+        var2017_1
+    }
+    local var2020 = (i_142 and 6779118)
+    local var2023 = (var2022_2 and 4168661)
+    local var2024 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2026 = var51[var2025_2]
+    local var2027 = getgenv().CHECK_COOLDOWN
+    local var2028 = task.wait(5)
+    local var2029 = (var2028 and 1020734)
+    local var2030 = workspace.GetDescendants
+    local var2032 = {
+        var2031_1
+    }
+    local var2034 = (i_143 and 6779118)
+    local var2037 = (var2036_2 and 4168661)
+    local var2038 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2040 = var51[var2039_2]
+    local var2041 = getgenv().CHECK_COOLDOWN
+    local var2042 = task.wait(5)
+    local var2043 = (var2042 and 1020734)
+    local var2044 = workspace.GetDescendants
+    local var2046 = {
+        var2045_1
+    }
+    local var2048 = (i_144 and 6779118)
+    local var2051 = (var2050_2 and 4168661)
+    local var2052 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2054 = var51[var2053_2]
+    local var2055 = getgenv().CHECK_COOLDOWN
+    local var2056 = task.wait(5)
+    local var2057 = (var2056 and 1020734)
+    local var2058 = workspace.GetDescendants
+    local var2060 = {
+        var2059_1
+    }
+    local var2062 = (i_145 and 6779118)
+    local var2065 = (var2064_2 and 4168661)
+    local var2066 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2068 = var51[var2067_2]
+    local var2069 = getgenv().CHECK_COOLDOWN
+    local var2070 = task.wait(5)
+    local var2071 = (var2070 and 1020734)
+    local var2072 = workspace.GetDescendants
+    local var2074 = {
+        var2073_1
+    }
+    local var2076 = (i_146 and 6779118)
+    local var2079 = (var2078_2 and 4168661)
+    local var2080 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2082 = var51[var2081_2]
+    local var2083 = getgenv().CHECK_COOLDOWN
+    local var2084 = task.wait(5)
+    local var2085 = (var2084 and 1020734)
+    local var2086 = workspace.GetDescendants
+    local var2088 = {
+        var2087_1
+    }
+    local var2090 = (i_147 and 6779118)
+    local var2093 = (var2092_2 and 4168661)
+    local var2094 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2096 = var51[var2095_2]
+    local var2097 = getgenv().CHECK_COOLDOWN
+    local var2098 = task.wait(5)
+    local var2099 = (var2098 and 1020734)
+    local var2100 = workspace.GetDescendants
+    local var2102 = {
+        var2101_1
+    }
+    local var2104 = (i_148 and 6779118)
+    local var2107 = (var2106_2 and 4168661)
+    local var2108 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2110 = var51[var2109_2]
+    local var2111 = getgenv().CHECK_COOLDOWN
+    local var2112 = task.wait(5)
+    local var2113 = (var2112 and 1020734)
+    local var2114 = workspace.GetDescendants
+    local var2116 = {
+        var2115_1
+    }
+    local var2118 = (i_149 and 6779118)
+    local var2121 = (var2120_2 and 4168661)
+    local var2122 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2124 = var51[var2123_2]
+    local var2125 = getgenv().CHECK_COOLDOWN
+    local var2126 = task.wait(5)
+    local var2127 = (var2126 and 1020734)
+    local var2128 = workspace.GetDescendants
+    local var2130 = {
+        var2129_1
+    }
+    local var2132 = (i_150 and 6779118)
+    local var2135 = (var2134_2 and 4168661)
+    local var2136 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2138 = var51[var2137_2]
+    local var2139 = getgenv().CHECK_COOLDOWN
+    local var2140 = task.wait(5)
+    local var2141 = (var2140 and 1020734)
+    local var2142 = workspace.GetDescendants
+    local var2144 = {
+        var2143_1
+    }
+    local var2146 = (i_151 and 6779118)
+    local var2149 = (var2148_2 and 4168661)
+    local var2150 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2152 = var51[var2151_2]
+    local var2153 = getgenv().CHECK_COOLDOWN
+    local var2154 = task.wait(5)
+    local var2155 = (var2154 and 1020734)
+    local var2156 = workspace.GetDescendants
+    local var2158 = {
+        var2157_1
+    }
+    local var2160 = (i_152 and 6779118)
+    local var2163 = (var2162_2 and 4168661)
+    local var2164 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2166 = var51[var2165_2]
+    local var2167 = getgenv().CHECK_COOLDOWN
+    local var2168 = task.wait(5)
+    local var2169 = (var2168 and 1020734)
+    local var2170 = workspace.GetDescendants
+    local var2172 = {
+        var2171_1
+    }
+    local var2174 = (i_153 and 6779118)
+    local var2177 = (var2176_2 and 4168661)
+    local var2178 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2180 = var51[var2179_2]
+    local var2181 = getgenv().CHECK_COOLDOWN
+    local var2182 = task.wait(5)
+    local var2183 = (var2182 and 1020734)
+    local var2184 = workspace.GetDescendants
+    local var2186 = {
+        var2185_1
+    }
+    local var2188 = (i_154 and 6779118)
+    local var2191 = (var2190_2 and 4168661)
+    local var2192 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2194 = var51[var2193_2]
+    local var2195 = getgenv().CHECK_COOLDOWN
+    local var2196 = task.wait(5)
+    local var2197 = (var2196 and 1020734)
+    local var2198 = workspace.GetDescendants
+    local var2200 = {
+        var2199_1
+    }
+    local var2202 = (i_155 and 6779118)
+    local var2205 = (var2204_2 and 4168661)
+    local var2206 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2208 = var51[var2207_2]
+    local var2209 = getgenv().CHECK_COOLDOWN
+    local var2210 = task.wait(5)
+    local var2211 = (var2210 and 1020734)
+    local var2212 = workspace.GetDescendants
+    local var2214 = {
+        var2213_1
+    }
+    local var2216 = (i_156 and 6779118)
+    local var2219 = (var2218_2 and 4168661)
+    local var2220 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2222 = var51[var2221_2]
+    local var2223 = getgenv().CHECK_COOLDOWN
+    local var2224 = task.wait(5)
+    local var2225 = (var2224 and 1020734)
+    local var2226 = workspace.GetDescendants
+    local var2228 = {
+        var2227_1
+    }
+    local var2230 = (i_157 and 6779118)
+    local var2233 = (var2232_2 and 4168661)
+    local var2234 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2236 = var51[var2235_2]
+    local var2237 = getgenv().CHECK_COOLDOWN
+    local var2238 = task.wait(5)
+    local var2239 = (var2238 and 1020734)
+    local var2240 = workspace.GetDescendants
+    local var2242 = {
+        var2241_1
+    }
+    local var2244 = (i_158 and 6779118)
+    local var2247 = (var2246_2 and 4168661)
+    local var2248 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2250 = var51[var2249_2]
+    local var2251 = getgenv().CHECK_COOLDOWN
+    local var2252 = task.wait(5)
+    local var2253 = (var2252 and 1020734)
+    local var2254 = workspace.GetDescendants
+    local var2256 = {
+        var2255_1
+    }
+    local var2258 = (i_159 and 6779118)
+    local var2261 = (var2260_2 and 4168661)
+    local var2262 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2264 = var51[var2263_2]
+    local var2265 = getgenv().CHECK_COOLDOWN
+    local var2266 = task.wait(5)
+    local var2267 = (var2266 and 1020734)
+    local var2268 = workspace.GetDescendants
+    local var2270 = {
+        var2269_1
+    }
+    local var2272 = (i_160 and 6779118)
+    local var2275 = (var2274_2 and 4168661)
+    local var2276 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2278 = var51[var2277_2]
+    local var2279 = getgenv().CHECK_COOLDOWN
+    local var2280 = task.wait(5)
+    local var2281 = (var2280 and 1020734)
+    local var2282 = workspace.GetDescendants
+    local var2284 = {
+        var2283_1
+    }
+    local var2286 = (i_161 and 6779118)
+    local var2289 = (var2288_2 and 4168661)
+    local var2290 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2292 = var51[var2291_2]
+    local var2293 = getgenv().CHECK_COOLDOWN
+    local var2294 = task.wait(5)
+    local var2295 = (var2294 and 1020734)
+    local var2296 = workspace.GetDescendants
+    local var2298 = {
+        var2297_1
+    }
+    local var2300 = (i_162 and 6779118)
+    local var2303 = (var2302_2 and 4168661)
+    local var2304 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2306 = var51[var2305_2]
+    local var2307 = getgenv().CHECK_COOLDOWN
+    local var2308 = task.wait(5)
+    local var2309 = (var2308 and 1020734)
+    local var2310 = workspace.GetDescendants
+    local var2312 = {
+        var2311_1
+    }
+    local var2314 = (i_163 and 6779118)
+    local var2317 = (var2316_2 and 4168661)
+    local var2318 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2320 = var51[var2319_2]
+    local var2321 = getgenv().CHECK_COOLDOWN
+    local var2322 = task.wait(5)
+    local var2323 = (var2322 and 1020734)
+    local var2324 = workspace.GetDescendants
+    local var2326 = {
+        var2325_1
+    }
+    local var2328 = (i_164 and 6779118)
+    local var2331 = (var2330_2 and 4168661)
+    local var2332 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2334 = var51[var2333_2]
+    local var2335 = getgenv().CHECK_COOLDOWN
+    local var2336 = task.wait(5)
+    local var2337 = (var2336 and 1020734)
+    local var2338 = workspace.GetDescendants
+    local var2340 = {
+        var2339_1
+    }
+    local var2342 = (i_165 and 6779118)
+    local var2345 = (var2344_2 and 4168661)
+    local var2346 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2348 = var51[var2347_2]
+    local var2349 = getgenv().CHECK_COOLDOWN
+    local var2350 = task.wait(5)
+    local var2351 = (var2350 and 1020734)
+    local var2352 = workspace.GetDescendants
+    local var2354 = {
+        var2353_1
+    }
+    local var2356 = (i_166 and 6779118)
+    local var2359 = (var2358_2 and 4168661)
+    local var2360 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2362 = var51[var2361_2]
+    local var2363 = getgenv().CHECK_COOLDOWN
+    local var2364 = task.wait(5)
+    local var2365 = (var2364 and 1020734)
+    local var2366 = workspace.GetDescendants
+    local var2368 = {
+        var2367_1
+    }
+    local var2370 = (i_167 and 6779118)
+    local var2373 = (var2372_2 and 4168661)
+    local var2374 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2376 = var51[var2375_2]
+    local var2377 = getgenv().CHECK_COOLDOWN
+    local var2378 = task.wait(5)
+    local var2379 = (var2378 and 1020734)
+    local var2380 = workspace.GetDescendants
+    local var2382 = {
+        var2381_1
+    }
+    local var2384 = (i_168 and 6779118)
+    local var2387 = (var2386_2 and 4168661)
+    local var2388 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2390 = var51[var2389_2]
+    local var2391 = getgenv().CHECK_COOLDOWN
+    local var2392 = task.wait(5)
+    local var2393 = (var2392 and 1020734)
+    local var2394 = workspace.GetDescendants
+    local var2396 = {
+        var2395_1
+    }
+    local var2398 = (i_169 and 6779118)
+    local var2401 = (var2400_2 and 4168661)
+    local var2402 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2404 = var51[var2403_2]
+    local var2405 = getgenv().CHECK_COOLDOWN
+    local var2406 = task.wait(5)
+    local var2407 = (var2406 and 1020734)
+    local var2408 = workspace.GetDescendants
+    local var2410 = {
+        var2409_1
+    }
+    local var2412 = (i_170 and 6779118)
+    local var2415 = (var2414_2 and 4168661)
+    local var2416 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2418 = var51[var2417_2]
+    local var2419 = getgenv().CHECK_COOLDOWN
+    local var2420 = task.wait(5)
+    local var2421 = (var2420 and 1020734)
+    local var2422 = workspace.GetDescendants
+    local var2424 = {
+        var2423_1
+    }
+    local var2426 = (i_171 and 6779118)
+    local var2429 = (var2428_2 and 4168661)
+    local var2430 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2432 = var51[var2431_2]
+    local var2433 = getgenv().CHECK_COOLDOWN
+    local var2434 = task.wait(5)
+    local var2435 = (var2434 and 1020734)
+    local var2436 = workspace.GetDescendants
+    local var2438 = {
+        var2437_1
+    }
+    local var2440 = (i_172 and 6779118)
+    local var2443 = (var2442_2 and 4168661)
+    local var2444 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2446 = var51[var2445_2]
+    local var2447 = getgenv().CHECK_COOLDOWN
+    local var2448 = task.wait(5)
+    local var2449 = (var2448 and 1020734)
+    local var2450 = workspace.GetDescendants
+    local var2452 = {
+        var2451_1
+    }
+    local var2454 = (i_173 and 6779118)
+    local var2457 = (var2456_2 and 4168661)
+    local var2458 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2460 = var51[var2459_2]
+    local var2461 = getgenv().CHECK_COOLDOWN
+    local var2462 = task.wait(5)
+    local var2463 = (var2462 and 1020734)
+    local var2464 = workspace.GetDescendants
+    local var2466 = {
+        var2465_1
+    }
+    local var2468 = (i_174 and 6779118)
+    local var2471 = (var2470_2 and 4168661)
+    local var2472 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2474 = var51[var2473_2]
+    local var2475 = getgenv().CHECK_COOLDOWN
+    local var2476 = task.wait(5)
+    local var2477 = (var2476 and 1020734)
+    local var2478 = workspace.GetDescendants
+    local var2480 = {
+        var2479_1
+    }
+    local var2482 = (i_175 and 6779118)
+    local var2485 = (var2484_2 and 4168661)
+    local var2486 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2488 = var51[var2487_2]
+    local var2489 = getgenv().CHECK_COOLDOWN
+    local var2490 = task.wait(5)
+    local var2491 = (var2490 and 1020734)
+    local var2492 = workspace.GetDescendants
+    local var2494 = {
+        var2493_1
+    }
+    local var2496 = (i_176 and 6779118)
+    local var2499 = (var2498_2 and 4168661)
+    local var2500 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2502 = var51[var2501_2]
+    local var2503 = getgenv().CHECK_COOLDOWN
+    local var2504 = task.wait(5)
+    local var2505 = (var2504 and 1020734)
+    local var2506 = workspace.GetDescendants
+    local var2508 = {
+        var2507_1
+    }
+    local var2510 = (i_177 and 6779118)
+    local var2513 = (var2512_2 and 4168661)
+    local var2514 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2516 = var51[var2515_2]
+    local var2517 = getgenv().CHECK_COOLDOWN
+    local var2518 = task.wait(5)
+    local var2519 = (var2518 and 1020734)
+    local var2520 = workspace.GetDescendants
+    local var2522 = {
+        var2521_1
+    }
+    local var2524 = (i_178 and 6779118)
+    local var2527 = (var2526_2 and 4168661)
+    local var2528 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2530 = var51[var2529_2]
+    local var2531 = getgenv().CHECK_COOLDOWN
+    local var2532 = task.wait(5)
+    local var2533 = (var2532 and 1020734)
+    local var2534 = workspace.GetDescendants
+    local var2536 = {
+        var2535_1
+    }
+    local var2538 = (i_179 and 6779118)
+    local var2541 = (var2540_2 and 4168661)
+    local var2542 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2544 = var51[var2543_2]
+    local var2545 = getgenv().CHECK_COOLDOWN
+    local var2546 = task.wait(5)
+    local var2547 = (var2546 and 1020734)
+    local var2548 = workspace.GetDescendants
+    local var2550 = {
+        var2549_1
+    }
+    local var2552 = (i_180 and 6779118)
+    local var2555 = (var2554_2 and 4168661)
+    local var2556 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2558 = var51[var2557_2]
+    local var2559 = getgenv().CHECK_COOLDOWN
+    local var2560 = task.wait(5)
+    local var2561 = (var2560 and 1020734)
+    local var2562 = workspace.GetDescendants
+    local var2564 = {
+        var2563_1
+    }
+    local var2566 = (i_181 and 6779118)
+    local var2569 = (var2568_2 and 4168661)
+    local var2570 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2572 = var51[var2571_2]
+    local var2573 = getgenv().CHECK_COOLDOWN
+    local var2574 = task.wait(5)
+    local var2575 = (var2574 and 1020734)
+    local var2576 = workspace.GetDescendants
+    local var2578 = {
+        var2577_1
+    }
+    local var2580 = (i_182 and 6779118)
+    local var2583 = (var2582_2 and 4168661)
+    local var2584 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2586 = var51[var2585_2]
+    local var2587 = getgenv().CHECK_COOLDOWN
+    local var2588 = task.wait(5)
+    local var2589 = (var2588 and 1020734)
+    local var2590 = workspace.GetDescendants
+    local var2592 = {
+        var2591_1
+    }
+    local var2594 = (i_183 and 6779118)
+    local var2597 = (var2596_2 and 4168661)
+    local var2598 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2600 = var51[var2599_2]
+    local var2601 = getgenv().CHECK_COOLDOWN
+    local var2602 = task.wait(5)
+    local var2603 = (var2602 and 1020734)
+    local var2604 = workspace.GetDescendants
+    local var2606 = {
+        var2605_1
+    }
+    local var2608 = (i_184 and 6779118)
+    local var2611 = (var2610_2 and 4168661)
+    local var2612 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2614 = var51[var2613_2]
+    local var2615 = getgenv().CHECK_COOLDOWN
+    local var2616 = task.wait(5)
+    local var2617 = (var2616 and 1020734)
+    local var2618 = workspace.GetDescendants
+    local var2620 = {
+        var2619_1
+    }
+    local var2622 = (i_185 and 6779118)
+    local var2625 = (var2624_2 and 4168661)
+    local var2626 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2628 = var51[var2627_2]
+    local var2629 = getgenv().CHECK_COOLDOWN
+    local var2630 = task.wait(5)
+    local var2631 = (var2630 and 1020734)
+    local var2632 = workspace.GetDescendants
+    local var2634 = {
+        var2633_1
+    }
+    local var2636 = (i_186 and 6779118)
+    local var2639 = (var2638_2 and 4168661)
+    local var2640 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2642 = var51[var2641_2]
+    local var2643 = getgenv().CHECK_COOLDOWN
+    local var2644 = task.wait(5)
+    local var2645 = (var2644 and 1020734)
+    local var2646 = workspace.GetDescendants
+    local var2648 = {
+        var2647_1
+    }
+    local var2650 = (i_187 and 6779118)
+    local var2653 = (var2652_2 and 4168661)
+    local var2654 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2656 = var51[var2655_2]
+    local var2657 = getgenv().CHECK_COOLDOWN
+    local var2658 = task.wait(5)
+    local var2659 = (var2658 and 1020734)
+    local var2660 = workspace.GetDescendants
+    local var2662 = {
+        var2661_1
+    }
+    local var2664 = (i_188 and 6779118)
+    local var2667 = (var2666_2 and 4168661)
+    local var2668 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2670 = var51[var2669_2]
+    local var2671 = getgenv().CHECK_COOLDOWN
+    local var2672 = task.wait(5)
+    local var2673 = (var2672 and 1020734)
+    local var2674 = workspace.GetDescendants
+    local var2676 = {
+        var2675_1
+    }
+    local var2678 = (i_189 and 6779118)
+    local var2681 = (var2680_2 and 4168661)
+    local var2682 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2684 = var51[var2683_2]
+    local var2685 = getgenv().CHECK_COOLDOWN
+    local var2686 = task.wait(5)
+    local var2687 = (var2686 and 1020734)
+    local var2688 = workspace.GetDescendants
+    local var2690 = {
+        var2689_1
+    }
+    local var2692 = (i_190 and 6779118)
+    local var2695 = (var2694_2 and 4168661)
+    local var2696 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2698 = var51[var2697_2]
+    local var2699 = getgenv().CHECK_COOLDOWN
+    local var2700 = task.wait(5)
+    local var2701 = (var2700 and 1020734)
+    local var2702 = workspace.GetDescendants
+    local var2704 = {
+        var2703_1
+    }
+    local var2706 = (i_191 and 6779118)
+    local var2709 = (var2708_2 and 4168661)
+    local var2710 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2712 = var51[var2711_2]
+    local var2713 = getgenv().CHECK_COOLDOWN
+    local var2714 = task.wait(5)
+    local var2715 = (var2714 and 1020734)
+    local var2716 = workspace.GetDescendants
+    local var2718 = {
+        var2717_1
+    }
+    local var2720 = (i_192 and 6779118)
+    local var2723 = (var2722_2 and 4168661)
+    local var2724 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2726 = var51[var2725_2]
+    local var2727 = getgenv().CHECK_COOLDOWN
+    local var2728 = task.wait(5)
+    local var2729 = (var2728 and 1020734)
+    local var2730 = workspace.GetDescendants
+    local var2732 = {
+        var2731_1
+    }
+    local var2734 = (i_193 and 6779118)
+    local var2737 = (var2736_2 and 4168661)
+    local var2738 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2740 = var51[var2739_2]
+    local var2741 = getgenv().CHECK_COOLDOWN
+    local var2742 = task.wait(5)
+    local var2743 = (var2742 and 1020734)
+    local var2744 = workspace.GetDescendants
+    local var2746 = {
+        var2745_1
+    }
+    local var2748 = (i_194 and 6779118)
+    local var2751 = (var2750_2 and 4168661)
+    local var2752 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2754 = var51[var2753_2]
+    local var2755 = getgenv().CHECK_COOLDOWN
+    local var2756 = task.wait(5)
+    local var2757 = (var2756 and 1020734)
+    local var2758 = workspace.GetDescendants
+    local var2760 = {
+        var2759_1
+    }
+    local var2762 = (i_195 and 6779118)
+    local var2765 = (var2764_2 and 4168661)
+    local var2766 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2768 = var51[var2767_2]
+    local var2769 = getgenv().CHECK_COOLDOWN
+    local var2770 = task.wait(5)
+    local var2771 = (var2770 and 1020734)
+    local var2772 = workspace.GetDescendants
+    local var2774 = {
+        var2773_1
+    }
+    local var2776 = (i_196 and 6779118)
+    local var2779 = (var2778_2 and 4168661)
+    local var2780 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2782 = var51[var2781_2]
+    local var2783 = getgenv().CHECK_COOLDOWN
+    local var2784 = task.wait(5)
+    local var2785 = (var2784 and 1020734)
+    local var2786 = workspace.GetDescendants
+    local var2788 = {
+        var2787_1
+    }
+    local var2790 = (i_197 and 6779118)
+    local var2793 = (var2792_2 and 4168661)
+    local var2794 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2796 = var51[var2795_2]
+    local var2797 = getgenv().CHECK_COOLDOWN
+    local var2798 = task.wait(5)
+    local var2799 = (var2798 and 1020734)
+    local var2800 = workspace.GetDescendants
+    local var2802 = {
+        var2801_1
+    }
+    local var2804 = (i_198 and 6779118)
+    local var2807 = (var2806_2 and 4168661)
+    local var2808 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2810 = var51[var2809_2]
+    local var2811 = getgenv().CHECK_COOLDOWN
+    local var2812 = task.wait(5)
+    local var2813 = (var2812 and 1020734)
+    local var2814 = workspace.GetDescendants
+    local var2816 = {
+        var2815_1
+    }
+    local var2818 = (i_199 and 6779118)
+    local var2821 = (var2820_2 and 4168661)
+    local var2822 = getgenv().MODEL_SEARCH_SETTINGS
+    local var2824 = var51[var2823_2]
+    local var2825 = getgenv().CHECK_COOLDOWN
+    local var2826 = task.wait(5)
+    local var2827 = (var2826 and 1020734)
+    local var2828 = workspace.GetDescendants
+    local var2830 = {
+        var2829_1
+    }
+    local var37_1 = {
+        arg1_1,
+        arg2_1,
+        arg3_1
+    }
+    local var42_1 = workspace:GetDescendants()
+    local var51 = {}
+    for i, v in ipairs(var42_1) do
+        local var46_2 = v.IsA
+        local var47_2 = v:IsA("Model")
+        local var50_2 = v.Name
+        var51 = {
+            ["Graipuss Medussi"] = {
+                enabled = true
+            },
+            ["Blackhole Goat"] = {
+                enabled = true
+            },
+            ["Esok Sekolah"] = {
+                enabled = true
+            },
+            ["La Supreme Combinasion"] = {
+                enabled = true
+            },
+            ["Nuclearo Dinossauro"] = {
+                enabled = true
+            },
+            ["Chicleteira Bicicleteira"] = {
+                enabled = true
+            },
+            ["Los Tralaleritos"] = {
+                enabled = true
+            },
+            ["Los Combinasionas"] = {
+                enabled = true
+            },
+            ["Nooo My Hotspot"] = {
+                enabled = true
+            },
+            ["Dragon Cannelloni"] = {
+                enabled = true
+            },
+            ["La Grande Combinasion"] = {
+                enabled = true
+            },
+            ["Dul Dul Dul"] = {
+                enabled = true
+            },
+            ["Los Hotspotsitos"] = {
+                enabled = true
+            },
+            ["Los Spiderinis"] = {
+                enabled = true
+            },
+            ["Ketupat Kepat"] = {
+                enabled = true
+            },
+            ["Los Matteos"] = {
+                enabled = true
+            },
+            ["Torrtuginni Dragonfrutini"] = {
+                enabled = true
+            },
+            ["Garama and Madundung"] = {
+                enabled = true
+            },
+            ["Pot Hotspot"] = {
+                enabled = true
+            }
+        }
+    end
+    local var57_1 = workspace:GetDescendants()
+    for i_2, v_2 in ipairs(var57_1) do
+        local var61_2 = v_2.IsA
+        local var62_2 = v_2:IsA("Model")
+        local var65_2 = v_2.Name
+    end
+    local var71_1 = workspace:GetDescendants()
+    for i_3, v_3 in ipairs(var71_1) do
+        local var75_2 = v_3.IsA
+        local var76_2 = v_3:IsA("Model")
+        local var79_2 = v_3.Name
+    end
+    local var85_1 = workspace:GetDescendants()
+    for i_4, v_4 in ipairs(var85_1) do
+        local var89_2 = v_4.IsA
+        local var90_2 = v_4:IsA("Model")
+        local var93_2 = v_4.Name
+    end
+    local var99_1 = workspace:GetDescendants()
+    for i_5, v_5 in ipairs(var99_1) do
+        local var103_2 = v_5.IsA
+        local var104_2 = v_5:IsA("Model")
+        local var107_2 = v_5.Name
+    end
+    local var113_1 = workspace:GetDescendants()
+    for i_6, v_6 in ipairs(var113_1) do
+        local var117_2 = v_6.IsA
+        local var118_2 = v_6:IsA("Model")
+        local var121_2 = v_6.Name
+    end
+    local var127_1 = workspace:GetDescendants()
+    for i_7, v_7 in ipairs(var127_1) do
+        local var131_2 = v_7.IsA
+        local var132_2 = v_7:IsA("Model")
+        local var135_2 = v_7.Name
+    end
+    local var141_1 = workspace:GetDescendants()
+    for i_8, v_8 in ipairs(var141_1) do
+        local var145_2 = v_8.IsA
+        local var146_2 = v_8:IsA("Model")
+        local var149_2 = v_8.Name
+    end
+    local var155_1 = workspace:GetDescendants()
+    for i_9, v_9 in ipairs(var155_1) do
+        local var159_2 = v_9.IsA
+        local var160_2 = v_9:IsA("Model")
+        local var163_2 = v_9.Name
+    end
+    local var169_1 = workspace:GetDescendants()
+    for i_10, v_10 in ipairs(var169_1) do
+        local var173_2 = v_10.IsA
+        local var174_2 = v_10:IsA("Model")
+        local var177_2 = v_10.Name
+    end
+    local var183_1 = workspace:GetDescendants()
+    for i_11, v_11 in ipairs(var183_1) do
+        local var187_2 = v_11.IsA
+        local var188_2 = v_11:IsA("Model")
+        local var191_2 = v_11.Name
+    end
+    local var197_1 = workspace:GetDescendants()
+    for i_12, v_12 in ipairs(var197_1) do
+        local var201_2 = v_12.IsA
+        local var202_2 = v_12:IsA("Model")
+        local var205_2 = v_12.Name
+    end
+    local var211_1 = workspace:GetDescendants()
+    for i_13, v_13 in ipairs(var211_1) do
+        local var215_2 = v_13.IsA
+        local var216_2 = v_13:IsA("Model")
+        local var219_2 = v_13.Name
+    end
+    local var225_1 = workspace:GetDescendants()
+    for i_14, v_14 in ipairs(var225_1) do
+        local var229_2 = v_14.IsA
+        local var230_2 = v_14:IsA("Model")
+        local var233_2 = v_14.Name
+    end
+    local var239_1 = workspace:GetDescendants()
+    for i_15, v_15 in ipairs(var239_1) do
+        local var243_2 = v_15.IsA
+        local var244_2 = v_15:IsA("Model")
+        local var247_2 = v_15.Name
+    end
+    local var253_1 = workspace:GetDescendants()
+    for i_16, v_16 in ipairs(var253_1) do
+        local var257_2 = v_16.IsA
+        local var258_2 = v_16:IsA("Model")
+        local var261_2 = v_16.Name
+    end
+    local var267_1 = workspace:GetDescendants()
+    for i_17, v_17 in ipairs(var267_1) do
+        local var271_2 = v_17.IsA
+        local var272_2 = v_17:IsA("Model")
+        local var275_2 = v_17.Name
+    end
+    local var281_1 = workspace:GetDescendants()
+    for i_18, v_18 in ipairs(var281_1) do
+        local var285_2 = v_18.IsA
+        local var286_2 = v_18:IsA("Model")
+        local var289_2 = v_18.Name
+    end
+    local var295_1 = workspace:GetDescendants()
+    for i_19, v_19 in ipairs(var295_1) do
+        local var299_2 = v_19.IsA
+        local var300_2 = v_19:IsA("Model")
+        local var303_2 = v_19.Name
+    end
+    local var309_1 = workspace:GetDescendants()
+    for i_20, v_20 in ipairs(var309_1) do
+        local var313_2 = v_20.IsA
+        local var314_2 = v_20:IsA("Model")
+        local var317_2 = v_20.Name
+    end
+    local var323_1 = workspace:GetDescendants()
+    for i_21, v_21 in ipairs(var323_1) do
+        local var327_2 = v_21.IsA
+        local var328_2 = v_21:IsA("Model")
+        local var331_2 = v_21.Name
+    end
+    local var337_1 = workspace:GetDescendants()
+    for i_22, v_22 in ipairs(var337_1) do
+        local var341_2 = v_22.IsA
+        local var342_2 = v_22:IsA("Model")
+        local var345_2 = v_22.Name
+    end
+    local var351_1 = workspace:GetDescendants()
+    for i_23, v_23 in ipairs(var351_1) do
+        local var355_2 = v_23.IsA
+        local var356_2 = v_23:IsA("Model")
+        local var359_2 = v_23.Name
+    end
+    local var365_1 = workspace:GetDescendants()
+    for i_24, v_24 in ipairs(var365_1) do
+        local var369_2 = v_24.IsA
+        local var370_2 = v_24:IsA("Model")
+        local var373_2 = v_24.Name
+    end
+    local var379_1 = workspace:GetDescendants()
+    for i_25, v_25 in ipairs(var379_1) do
+        local var383_2 = v_25.IsA
+        local var384_2 = v_25:IsA("Model")
+        local var387_2 = v_25.Name
+    end
+    local var393_1 = workspace:GetDescendants()
+    for i_26, v_26 in ipairs(var393_1) do
+        local var397_2 = v_26.IsA
+        local var398_2 = v_26:IsA("Model")
+        local var401_2 = v_26.Name
+    end
+    local var407_1 = workspace:GetDescendants()
+    for i_27, v_27 in ipairs(var407_1) do
+        local var411_2 = v_27.IsA
+        local var412_2 = v_27:IsA("Model")
+        local var415_2 = v_27.Name
+    end
+    local var421_1 = workspace:GetDescendants()
+    for i_28, v_28 in ipairs(var421_1) do
+        local var425_2 = v_28.IsA
+        local var426_2 = v_28:IsA("Model")
+        local var429_2 = v_28.Name
+    end
+    local var435_1 = workspace:GetDescendants()
+    for i_29, v_29 in ipairs(var435_1) do
+        local var439_2 = v_29.IsA
+        local var440_2 = v_29:IsA("Model")
+        local var443_2 = v_29.Name
+    end
+    local var449_1 = workspace:GetDescendants()
+    for i_30, v_30 in ipairs(var449_1) do
+        local var453_2 = v_30.IsA
+        local var454_2 = v_30:IsA("Model")
+        local var457_2 = v_30.Name
+    end
+    local var463_1 = workspace:GetDescendants()
+    for i_31, v_31 in ipairs(var463_1) do
+        local var467_2 = v_31.IsA
+        local var468_2 = v_31:IsA("Model")
+        local var471_2 = v_31.Name
+    end
+    local var477_1 = workspace:GetDescendants()
+    for i_32, v_32 in ipairs(var477_1) do
+        local var481_2 = v_32.IsA
+        local var482_2 = v_32:IsA("Model")
+        local var485_2 = v_32.Name
+    end
+    local var491_1 = workspace:GetDescendants()
+    for i_33, v_33 in ipairs(var491_1) do
+        local var495_2 = v_33.IsA
+        local var496_2 = v_33:IsA("Model")
+        local var499_2 = v_33.Name
+    end
+    local var505_1 = workspace:GetDescendants()
+    for i_34, v_34 in ipairs(var505_1) do
+        local var509_2 = v_34.IsA
+        local var510_2 = v_34:IsA("Model")
+        local var513_2 = v_34.Name
+    end
+    local var519_1 = workspace:GetDescendants()
+    for i_35, v_35 in ipairs(var519_1) do
+        local var523_2 = v_35.IsA
+        local var524_2 = v_35:IsA("Model")
+        local var527_2 = v_35.Name
+    end
+    local var533_1 = workspace:GetDescendants()
+    for i_36, v_36 in ipairs(var533_1) do
+        local var537_2 = v_36.IsA
+        local var538_2 = v_36:IsA("Model")
+        local var541_2 = v_36.Name
+    end
+    local var547_1 = workspace:GetDescendants()
+    for i_37, v_37 in ipairs(var547_1) do
+        local var551_2 = v_37.IsA
+        local var552_2 = v_37:IsA("Model")
+        local var555_2 = v_37.Name
+    end
+    local var561_1 = workspace:GetDescendants()
+    for i_38, v_38 in ipairs(var561_1) do
+        local var565_2 = v_38.IsA
+        local var566_2 = v_38:IsA("Model")
+        local var569_2 = v_38.Name
+    end
+    local var575_1 = workspace:GetDescendants()
+    for i_39, v_39 in ipairs(var575_1) do
+        local var579_2 = v_39.IsA
+        local var580_2 = v_39:IsA("Model")
+        local var583_2 = v_39.Name
+    end
+    local var589_1 = workspace:GetDescendants()
+    for i_40, v_40 in ipairs(var589_1) do
+        local var593_2 = v_40.IsA
+        local var594_2 = v_40:IsA("Model")
+        local var597_2 = v_40.Name
+    end
+    local var603_1 = workspace:GetDescendants()
+    for i_41, v_41 in ipairs(var603_1) do
+        local var607_2 = v_41.IsA
+        local var608_2 = v_41:IsA("Model")
+        local var611_2 = v_41.Name
+    end
+    local var617_1 = workspace:GetDescendants()
+    for i_42, v_42 in ipairs(var617_1) do
+        local var621_2 = v_42.IsA
+        local var622_2 = v_42:IsA("Model")
+        local var625_2 = v_42.Name
+    end
+    local var631_1 = workspace:GetDescendants()
+    for i_43, v_43 in ipairs(var631_1) do
+        local var635_2 = v_43.IsA
+        local var636_2 = v_43:IsA("Model")
+        local var639_2 = v_43.Name
+    end
+    local var645_1 = workspace:GetDescendants()
+    for i_44, v_44 in ipairs(var645_1) do
+        local var649_2 = v_44.IsA
+        local var650_2 = v_44:IsA("Model")
+        local var653_2 = v_44.Name
+    end
+    local var659_1 = workspace:GetDescendants()
+    for i_45, v_45 in ipairs(var659_1) do
+        local var663_2 = v_45.IsA
+        local var664_2 = v_45:IsA("Model")
+        local var667_2 = v_45.Name
+    end
+    local var673_1 = workspace:GetDescendants()
+    for i_46, v_46 in ipairs(var673_1) do
+        local var677_2 = v_46.IsA
+        local var678_2 = v_46:IsA("Model")
+        local var681_2 = v_46.Name
+    end
+    local var687_1 = workspace:GetDescendants()
+    for i_47, v_47 in ipairs(var687_1) do
+        local var691_2 = v_47.IsA
+        local var692_2 = v_47:IsA("Model")
+        local var695_2 = v_47.Name
+    end
+    local var701_1 = workspace:GetDescendants()
+    for i_48, v_48 in ipairs(var701_1) do
+        local var705_2 = v_48.IsA
+        local var706_2 = v_48:IsA("Model")
+        local var709_2 = v_48.Name
+    end
+    local var715_1 = workspace:GetDescendants()
+    for i_49, v_49 in ipairs(var715_1) do
+        local var719_2 = v_49.IsA
+        local var720_2 = v_49:IsA("Model")
+        local var723_2 = v_49.Name
+    end
+    local var729_1 = workspace:GetDescendants()
+    for i_50, v_50 in ipairs(var729_1) do
+        local var733_2 = v_50.IsA
+        local var734_2 = v_50:IsA("Model")
+        local var737_2 = v_50.Name
+    end
+    local var743_1 = workspace:GetDescendants()
+    for i_51, v_51 in ipairs(var743_1) do
+        local var747_2 = v_51.IsA
+        local var748_2 = v_51:IsA("Model")
+        local var751_2 = v_51.Name
+    end
+    local var757_1 = workspace:GetDescendants()
+    for i_52, v_52 in ipairs(var757_1) do
+        local var761_2 = v_52.IsA
+        local var762_2 = v_52:IsA("Model")
+        local var765_2 = v_52.Name
+    end
+    local var771_1 = workspace:GetDescendants()
+    for i_53, v_53 in ipairs(var771_1) do
+        local var775_2 = v_53.IsA
+        local var776_2 = v_53:IsA("Model")
+        local var779_2 = v_53.Name
+    end
+    local var785_1 = workspace:GetDescendants()
+    for i_54, v_54 in ipairs(var785_1) do
+        local var789_2 = v_54.IsA
+        local var790_2 = v_54:IsA("Model")
+        local var793_2 = v_54.Name
+    end
+    local var799_1 = workspace:GetDescendants()
+    for i_55, v_55 in ipairs(var799_1) do
+        local var803_2 = v_55.IsA
+        local var804_2 = v_55:IsA("Model")
+        local var807_2 = v_55.Name
+    end
+    local var813_1 = workspace:GetDescendants()
+    for i_56, v_56 in ipairs(var813_1) do
+        local var817_2 = v_56.IsA
+        local var818_2 = v_56:IsA("Model")
+        local var821_2 = v_56.Name
+    end
+    local var827_1 = workspace:GetDescendants()
+    for i_57, v_57 in ipairs(var827_1) do
+        local var831_2 = v_57.IsA
+        local var832_2 = v_57:IsA("Model")
+        local var835_2 = v_57.Name
+    end
+    local var841_1 = workspace:GetDescendants()
+    for i_58, v_58 in ipairs(var841_1) do
+        local var845_2 = v_58.IsA
+        local var846_2 = v_58:IsA("Model")
+        local var849_2 = v_58.Name
+    end
+    local var855_1 = workspace:GetDescendants()
+    for i_59, v_59 in ipairs(var855_1) do
+        local var859_2 = v_59.IsA
+        local var860_2 = v_59:IsA("Model")
+        local var863_2 = v_59.Name
+    end
+    local var869_1 = workspace:GetDescendants()
+    for i_60, v_60 in ipairs(var869_1) do
+        local var873_2 = v_60.IsA
+        local var874_2 = v_60:IsA("Model")
+        local var877_2 = v_60.Name
+    end
+    local var883_1 = workspace:GetDescendants()
+    for i_61, v_61 in ipairs(var883_1) do
+        local var887_2 = v_61.IsA
+        local var888_2 = v_61:IsA("Model")
+        local var891_2 = v_61.Name
+    end
+    local var897_1 = workspace:GetDescendants()
+    for i_62, v_62 in ipairs(var897_1) do
+        local var901_2 = v_62.IsA
+        local var902_2 = v_62:IsA("Model")
+        local var905_2 = v_62.Name
+    end
+    local var911_1 = workspace:GetDescendants()
+    for i_63, v_63 in ipairs(var911_1) do
+        local var915_2 = v_63.IsA
+        local var916_2 = v_63:IsA("Model")
+        local var919_2 = v_63.Name
+    end
+    local var925_1 = workspace:GetDescendants()
+    for i_64, v_64 in ipairs(var925_1) do
+        local var929_2 = v_64.IsA
+        local var930_2 = v_64:IsA("Model")
+        local var933_2 = v_64.Name
+    end
+    local var939_1 = workspace:GetDescendants()
+    for i_65, v_65 in ipairs(var939_1) do
+        local var943_2 = v_65.IsA
+        local var944_2 = v_65:IsA("Model")
+        local var947_2 = v_65.Name
+    end
+    local var953_1 = workspace:GetDescendants()
+    for i_66, v_66 in ipairs(var953_1) do
+        local var957_2 = v_66.IsA
+        local var958_2 = v_66:IsA("Model")
+        local var961_2 = v_66.Name
+    end
+    local var967_1 = workspace:GetDescendants()
+    for i_67, v_67 in ipairs(var967_1) do
+        local var971_2 = v_67.IsA
+        local var972_2 = v_67:IsA("Model")
+        local var975_2 = v_67.Name
+    end
+    local var981_1 = workspace:GetDescendants()
+    for i_68, v_68 in ipairs(var981_1) do
+        local var985_2 = v_68.IsA
+        local var986_2 = v_68:IsA("Model")
+        local var989_2 = v_68.Name
+    end
+    local var995_1 = workspace:GetDescendants()
+    for i_69, v_69 in ipairs(var995_1) do
+        local var999_2 = v_69.IsA
+        local var1000_2 = v_69:IsA("Model")
+        local var1003_2 = v_69.Name
+    end
+    local var1009_1 = workspace:GetDescendants()
+    for i_70, v_70 in ipairs(var1009_1) do
+        local var1013_2 = v_70.IsA
+        local var1014_2 = v_70:IsA("Model")
+        local var1017_2 = v_70.Name
+    end
+    local var1023_1 = workspace:GetDescendants()
+    for i_71, v_71 in ipairs(var1023_1) do
+        local var1027_2 = v_71.IsA
+        local var1028_2 = v_71:IsA("Model")
+        local var1031_2 = v_71.Name
+    end
+    local var1037_1 = workspace:GetDescendants()
+    for i_72, v_72 in ipairs(var1037_1) do
+        local var1041_2 = v_72.IsA
+        local var1042_2 = v_72:IsA("Model")
+        local var1045_2 = v_72.Name
+    end
+    local var1051_1 = workspace:GetDescendants()
+    for i_73, v_73 in ipairs(var1051_1) do
+        local var1055_2 = v_73.IsA
+        local var1056_2 = v_73:IsA("Model")
+        local var1059_2 = v_73.Name
+    end
+    local var1065_1 = workspace:GetDescendants()
+    for i_74, v_74 in ipairs(var1065_1) do
+        local var1069_2 = v_74.IsA
+        local var1070_2 = v_74:IsA("Model")
+        local var1073_2 = v_74.Name
+    end
+    local var1079_1 = workspace:GetDescendants()
+    for i_75, v_75 in ipairs(var1079_1) do
+        local var1083_2 = v_75.IsA
+        local var1084_2 = v_75:IsA("Model")
+        local var1087_2 = v_75.Name
+    end
+    local var1093_1 = workspace:GetDescendants()
+    for i_76, v_76 in ipairs(var1093_1) do
+        local var1097_2 = v_76.IsA
+        local var1098_2 = v_76:IsA("Model")
+        local var1101_2 = v_76.Name
+    end
+    local var1107_1 = workspace:GetDescendants()
+    for i_77, v_77 in ipairs(var1107_1) do
+        local var1111_2 = v_77.IsA
+        local var1112_2 = v_77:IsA("Model")
+        local var1115_2 = v_77.Name
+    end
+    local var1121_1 = workspace:GetDescendants()
+    for i_78, v_78 in ipairs(var1121_1) do
+        local var1125_2 = v_78.IsA
+        local var1126_2 = v_78:IsA("Model")
+        local var1129_2 = v_78.Name
+    end
+    local var1135_1 = workspace:GetDescendants()
+    for i_79, v_79 in ipairs(var1135_1) do
+        local var1139_2 = v_79.IsA
+        local var1140_2 = v_79:IsA("Model")
+        local var1143_2 = v_79.Name
+    end
+    local var1149_1 = workspace:GetDescendants()
+    for i_80, v_80 in ipairs(var1149_1) do
+        local var1153_2 = v_80.IsA
+        local var1154_2 = v_80:IsA("Model")
+        local var1157_2 = v_80.Name
+    end
+    local var1163_1 = workspace:GetDescendants()
+    for i_81, v_81 in ipairs(var1163_1) do
+        local var1167_2 = v_81.IsA
+        local var1168_2 = v_81:IsA("Model")
+        local var1171_2 = v_81.Name
+    end
+    local var1177_1 = workspace:GetDescendants()
+    for i_82, v_82 in ipairs(var1177_1) do
+        local var1181_2 = v_82.IsA
+        local var1182_2 = v_82:IsA("Model")
+        local var1185_2 = v_82.Name
+    end
+    local var1191_1 = workspace:GetDescendants()
+    for i_83, v_83 in ipairs(var1191_1) do
+        local var1195_2 = v_83.IsA
+        local var1196_2 = v_83:IsA("Model")
+        local var1199_2 = v_83.Name
+    end
+    local var1205_1 = workspace:GetDescendants()
+    for i_84, v_84 in ipairs(var1205_1) do
+        local var1209_2 = v_84.IsA
+        local var1210_2 = v_84:IsA("Model")
+        local var1213_2 = v_84.Name
+    end
+    local var1219_1 = workspace:GetDescendants()
+    for i_85, v_85 in ipairs(var1219_1) do
+        local var1223_2 = v_85.IsA
+        local var1224_2 = v_85:IsA("Model")
+        local var1227_2 = v_85.Name
+    end
+    local var1233_1 = workspace:GetDescendants()
+    for i_86, v_86 in ipairs(var1233_1) do
+        local var1237_2 = v_86.IsA
+        local var1238_2 = v_86:IsA("Model")
+        local var1241_2 = v_86.Name
+    end
+    local var1247_1 = workspace:GetDescendants()
+    for i_87, v_87 in ipairs(var1247_1) do
+        local var1251_2 = v_87.IsA
+        local var1252_2 = v_87:IsA("Model")
+        local var1255_2 = v_87.Name
+    end
+    local var1261_1 = workspace:GetDescendants()
+    for i_88, v_88 in ipairs(var1261_1) do
+        local var1265_2 = v_88.IsA
+        local var1266_2 = v_88:IsA("Model")
+        local var1269_2 = v_88.Name
+    end
+    local var1275_1 = workspace:GetDescendants()
+    for i_89, v_89 in ipairs(var1275_1) do
+        local var1279_2 = v_89.IsA
+        local var1280_2 = v_89:IsA("Model")
+        local var1283_2 = v_89.Name
+    end
+    local var1289_1 = workspace:GetDescendants()
+    for i_90, v_90 in ipairs(var1289_1) do
+        local var1293_2 = v_90.IsA
+        local var1294_2 = v_90:IsA("Model")
+        local var1297_2 = v_90.Name
+    end
+    local var1303_1 = workspace:GetDescendants()
+    for i_91, v_91 in ipairs(var1303_1) do
+        local var1307_2 = v_91.IsA
+        local var1308_2 = v_91:IsA("Model")
+        local var1311_2 = v_91.Name
+    end
+    local var1317_1 = workspace:GetDescendants()
+    for i_92, v_92 in ipairs(var1317_1) do
+        local var1321_2 = v_92.IsA
+        local var1322_2 = v_92:IsA("Model")
+        local var1325_2 = v_92.Name
+    end
+    local var1331_1 = workspace:GetDescendants()
+    for i_93, v_93 in ipairs(var1331_1) do
+        local var1335_2 = v_93.IsA
+        local var1336_2 = v_93:IsA("Model")
+        local var1339_2 = v_93.Name
+    end
+    local var1345_1 = workspace:GetDescendants()
+    for i_94, v_94 in ipairs(var1345_1) do
+        local var1349_2 = v_94.IsA
+        local var1350_2 = v_94:IsA("Model")
+        local var1353_2 = v_94.Name
+    end
+    local var1359_1 = workspace:GetDescendants()
+    for i_95, v_95 in ipairs(var1359_1) do
+        local var1363_2 = v_95.IsA
+        local var1364_2 = v_95:IsA("Model")
+        local var1367_2 = v_95.Name
+    end
+    local var1373_1 = workspace:GetDescendants()
+    for i_96, v_96 in ipairs(var1373_1) do
+        local var1377_2 = v_96.IsA
+        local var1378_2 = v_96:IsA("Model")
+        local var1381_2 = v_96.Name
+    end
+    local var1387_1 = workspace:GetDescendants()
+    for i_97, v_97 in ipairs(var1387_1) do
+        local var1391_2 = v_97.IsA
+        local var1392_2 = v_97:IsA("Model")
+        local var1395_2 = v_97.Name
+    end
+    local var1401_1 = workspace:GetDescendants()
+    for i_98, v_98 in ipairs(var1401_1) do
+        local var1405_2 = v_98.IsA
+        local var1406_2 = v_98:IsA("Model")
+        local var1409_2 = v_98.Name
+    end
+    local var1415_1 = workspace:GetDescendants()
+    for i_99, v_99 in ipairs(var1415_1) do
+        local var1419_2 = v_99.IsA
+        local var1420_2 = v_99:IsA("Model")
+        local var1423_2 = v_99.Name
+    end
+    local var1429_1 = workspace:GetDescendants()
+    for i_100, v_100 in ipairs(var1429_1) do
+        local var1433_2 = v_100.IsA
+        local var1434_2 = v_100:IsA("Model")
+        local var1437_2 = v_100.Name
+    end
+    local var1443_1 = workspace:GetDescendants()
+    for i_101, v_101 in ipairs(var1443_1) do
+        local var1447_2 = v_101.IsA
+        local var1448_2 = v_101:IsA("Model")
+        local var1451_2 = v_101.Name
+    end
+    local var1457_1 = workspace:GetDescendants()
+    for i_102, v_102 in ipairs(var1457_1) do
+        local var1461_2 = v_102.IsA
+        local var1462_2 = v_102:IsA("Model")
+        local var1465_2 = v_102.Name
+    end
+    local var1471_1 = workspace:GetDescendants()
+    for i_103, v_103 in ipairs(var1471_1) do
+        local var1475_2 = v_103.IsA
+        local var1476_2 = v_103:IsA("Model")
+        local var1479_2 = v_103.Name
+    end
+    local var1485_1 = workspace:GetDescendants()
+    for i_104, v_104 in ipairs(var1485_1) do
+        local var1489_2 = v_104.IsA
+        local var1490_2 = v_104:IsA("Model")
+        local var1493_2 = v_104.Name
+    end
+    local var1499_1 = workspace:GetDescendants()
+    for i_105, v_105 in ipairs(var1499_1) do
+        local var1503_2 = v_105.IsA
+        local var1504_2 = v_105:IsA("Model")
+        local var1507_2 = v_105.Name
+    end
+    local var1513_1 = workspace:GetDescendants()
+    for i_106, v_106 in ipairs(var1513_1) do
+        local var1517_2 = v_106.IsA
+        local var1518_2 = v_106:IsA("Model")
+        local var1521_2 = v_106.Name
+    end
+    local var1527_1 = workspace:GetDescendants()
+    for i_107, v_107 in ipairs(var1527_1) do
+        local var1531_2 = v_107.IsA
+        local var1532_2 = v_107:IsA("Model")
+        local var1535_2 = v_107.Name
+    end
+    local var1541_1 = workspace:GetDescendants()
+    for i_108, v_108 in ipairs(var1541_1) do
+        local var1545_2 = v_108.IsA
+        local var1546_2 = v_108:IsA("Model")
+        local var1549_2 = v_108.Name
+    end
+    local var1555_1 = workspace:GetDescendants()
+    for i_109, v_109 in ipairs(var1555_1) do
+        local var1559_2 = v_109.IsA
+        local var1560_2 = v_109:IsA("Model")
+        local var1563_2 = v_109.Name
+    end
+    local var1569_1 = workspace:GetDescendants()
+    for i_110, v_110 in ipairs(var1569_1) do
+        local var1573_2 = v_110.IsA
+        local var1574_2 = v_110:IsA("Model")
+        local var1577_2 = v_110.Name
+    end
+    local var1583_1 = workspace:GetDescendants()
+    for i_111, v_111 in ipairs(var1583_1) do
+        local var1587_2 = v_111.IsA
+        local var1588_2 = v_111:IsA("Model")
+        local var1591_2 = v_111.Name
+    end
+    local var1597_1 = workspace:GetDescendants()
+    for i_112, v_112 in ipairs(var1597_1) do
+        local var1601_2 = v_112.IsA
+        local var1602_2 = v_112:IsA("Model")
+        local var1605_2 = v_112.Name
+    end
+    local var1611_1 = workspace:GetDescendants()
+    for i_113, v_113 in ipairs(var1611_1) do
+        local var1615_2 = v_113.IsA
+        local var1616_2 = v_113:IsA("Model")
+        local var1619_2 = v_113.Name
+    end
+    local var1625_1 = workspace:GetDescendants()
+    for i_114, v_114 in ipairs(var1625_1) do
+        local var1629_2 = v_114.IsA
+        local var1630_2 = v_114:IsA("Model")
+        local var1633_2 = v_114.Name
+    end
+    local var1639_1 = workspace:GetDescendants()
+    for i_115, v_115 in ipairs(var1639_1) do
+        local var1643_2 = v_115.IsA
+        local var1644_2 = v_115:IsA("Model")
+        local var1647_2 = v_115.Name
+    end
+    local var1653_1 = workspace:GetDescendants()
+    for i_116, v_116 in ipairs(var1653_1) do
+        local var1657_2 = v_116.IsA
+        local var1658_2 = v_116:IsA("Model")
+        local var1661_2 = v_116.Name
+    end
+    local var1667_1 = workspace:GetDescendants()
+    for i_117, v_117 in ipairs(var1667_1) do
+        local var1671_2 = v_117.IsA
+        local var1672_2 = v_117:IsA("Model")
+        local var1675_2 = v_117.Name
+    end
+    local var1681_1 = workspace:GetDescendants()
+    for i_118, v_118 in ipairs(var1681_1) do
+        local var1685_2 = v_118.IsA
+        local var1686_2 = v_118:IsA("Model")
+        local var1689_2 = v_118.Name
+    end
+    local var1695_1 = workspace:GetDescendants()
+    for i_119, v_119 in ipairs(var1695_1) do
+        local var1699_2 = v_119.IsA
+        local var1700_2 = v_119:IsA("Model")
+        local var1703_2 = v_119.Name
+    end
+    local var1709_1 = workspace:GetDescendants()
+    for i_120, v_120 in ipairs(var1709_1) do
+        local var1713_2 = v_120.IsA
+        local var1714_2 = v_120:IsA("Model")
+        local var1717_2 = v_120.Name
+    end
+    local var1723_1 = workspace:GetDescendants()
+    for i_121, v_121 in ipairs(var1723_1) do
+        local var1727_2 = v_121.IsA
+        local var1728_2 = v_121:IsA("Model")
+        local var1731_2 = v_121.Name
+    end
+    local var1737_1 = workspace:GetDescendants()
+    for i_122, v_122 in ipairs(var1737_1) do
+        local var1741_2 = v_122.IsA
+        local var1742_2 = v_122:IsA("Model")
+        local var1745_2 = v_122.Name
+    end
+    local var1751_1 = workspace:GetDescendants()
+    for i_123, v_123 in ipairs(var1751_1) do
+        local var1755_2 = v_123.IsA
+        local var1756_2 = v_123:IsA("Model")
+        local var1759_2 = v_123.Name
+    end
+    local var1765_1 = workspace:GetDescendants()
+    for i_124, v_124 in ipairs(var1765_1) do
+        local var1769_2 = v_124.IsA
+        local var1770_2 = v_124:IsA("Model")
+        local var1773_2 = v_124.Name
+    end
+    local var1779_1 = workspace:GetDescendants()
+    for i_125, v_125 in ipairs(var1779_1) do
+        local var1783_2 = v_125.IsA
+        local var1784_2 = v_125:IsA("Model")
+        local var1787_2 = v_125.Name
+    end
+    local var1793_1 = workspace:GetDescendants()
+    for i_126, v_126 in ipairs(var1793_1) do
+        local var1797_2 = v_126.IsA
+        local var1798_2 = v_126:IsA("Model")
+        local var1801_2 = v_126.Name
+    end
+    local var1807_1 = workspace:GetDescendants()
+    for i_127, v_127 in ipairs(var1807_1) do
+        local var1811_2 = v_127.IsA
+        local var1812_2 = v_127:IsA("Model")
+        local var1815_2 = v_127.Name
+    end
+    local var1821_1 = workspace:GetDescendants()
+    for i_128, v_128 in ipairs(var1821_1) do
+        local var1825_2 = v_128.IsA
+        local var1826_2 = v_128:IsA("Model")
+        local var1829_2 = v_128.Name
+    end
+    local var1835_1 = workspace:GetDescendants()
+    for i_129, v_129 in ipairs(var1835_1) do
+        local var1839_2 = v_129.IsA
+        local var1840_2 = v_129:IsA("Model")
+        local var1843_2 = v_129.Name
+    end
+    local var1849_1 = workspace:GetDescendants()
+    for i_130, v_130 in ipairs(var1849_1) do
+        local var1853_2 = v_130.IsA
+        local var1854_2 = v_130:IsA("Model")
+        local var1857_2 = v_130.Name
+    end
+    local var1863_1 = workspace:GetDescendants()
+    for i_131, v_131 in ipairs(var1863_1) do
+        local var1867_2 = v_131.IsA
+        local var1868_2 = v_131:IsA("Model")
+        local var1871_2 = v_131.Name
+    end
+    local var1877_1 = workspace:GetDescendants()
+    for i_132, v_132 in ipairs(var1877_1) do
+        local var1881_2 = v_132.IsA
+        local var1882_2 = v_132:IsA("Model")
+        local var1885_2 = v_132.Name
+    end
+    local var1891_1 = workspace:GetDescendants()
+    for i_133, v_133 in ipairs(var1891_1) do
+        local var1895_2 = v_133.IsA
+        local var1896_2 = v_133:IsA("Model")
+        local var1899_2 = v_133.Name
+    end
+    local var1905_1 = workspace:GetDescendants()
+    for i_134, v_134 in ipairs(var1905_1) do
+        local var1909_2 = v_134.IsA
+        local var1910_2 = v_134:IsA("Model")
+        local var1913_2 = v_134.Name
+    end
+    local var1919_1 = workspace:GetDescendants()
+    for i_135, v_135 in ipairs(var1919_1) do
+        local var1923_2 = v_135.IsA
+        local var1924_2 = v_135:IsA("Model")
+        local var1927_2 = v_135.Name
+    end
+    local var1933_1 = workspace:GetDescendants()
+    for i_136, v_136 in ipairs(var1933_1) do
+        local var1937_2 = v_136.IsA
+        local var1938_2 = v_136:IsA("Model")
+        local var1941_2 = v_136.Name
+    end
+    local var1947_1 = workspace:GetDescendants()
+    for i_137, v_137 in ipairs(var1947_1) do
+        local var1951_2 = v_137.IsA
+        local var1952_2 = v_137:IsA("Model")
+        local var1955_2 = v_137.Name
+    end
+    local var1961_1 = workspace:GetDescendants()
+    for i_138, v_138 in ipairs(var1961_1) do
+        local var1965_2 = v_138.IsA
+        local var1966_2 = v_138:IsA("Model")
+        local var1969_2 = v_138.Name
+    end
+    local var1975_1 = workspace:GetDescendants()
+    for i_139, v_139 in ipairs(var1975_1) do
+        local var1979_2 = v_139.IsA
+        local var1980_2 = v_139:IsA("Model")
+        local var1983_2 = v_139.Name
+    end
+    local var1989_1 = workspace:GetDescendants()
+    for i_140, v_140 in ipairs(var1989_1) do
+        local var1993_2 = v_140.IsA
+        local var1994_2 = v_140:IsA("Model")
+        local var1997_2 = v_140.Name
+    end
+    local var2003_1 = workspace:GetDescendants()
+    for i_141, v_141 in ipairs(var2003_1) do
+        local var2007_2 = v_141.IsA
+        local var2008_2 = v_141:IsA("Model")
+        local var2011_2 = v_141.Name
+    end
+    local var2017_1 = workspace:GetDescendants()
+    for i_142, v_142 in ipairs(var2017_1) do
+        local var2021_2 = v_142.IsA
+        local var2022_2 = v_142:IsA("Model")
+        local var2025_2 = v_142.Name
+    end
+    local var2031_1 = workspace:GetDescendants()
+    for i_143, v_143 in ipairs(var2031_1) do
+        local var2035_2 = v_143.IsA
+        local var2036_2 = v_143:IsA("Model")
+        local var2039_2 = v_143.Name
+    end
+    local var2045_1 = workspace:GetDescendants()
+    for i_144, v_144 in ipairs(var2045_1) do
+        local var2049_2 = v_144.IsA
+        local var2050_2 = v_144:IsA("Model")
+        local var2053_2 = v_144.Name
+    end
+    local var2059_1 = workspace:GetDescendants()
+    for i_145, v_145 in ipairs(var2059_1) do
+        local var2063_2 = v_145.IsA
+        local var2064_2 = v_145:IsA("Model")
+        local var2067_2 = v_145.Name
+    end
+    local var2073_1 = workspace:GetDescendants()
+    for i_146, v_146 in ipairs(var2073_1) do
+        local var2077_2 = v_146.IsA
+        local var2078_2 = v_146:IsA("Model")
+        local var2081_2 = v_146.Name
+    end
+    local var2087_1 = workspace:GetDescendants()
+    for i_147, v_147 in ipairs(var2087_1) do
+        local var2091_2 = v_147.IsA
+        local var2092_2 = v_147:IsA("Model")
+        local var2095_2 = v_147.Name
+    end
+    local var2101_1 = workspace:GetDescendants()
+    for i_148, v_148 in ipairs(var2101_1) do
+        local var2105_2 = v_148.IsA
+        local var2106_2 = v_148:IsA("Model")
+        local var2109_2 = v_148.Name
+    end
+    local var2115_1 = workspace:GetDescendants()
+    for i_149, v_149 in ipairs(var2115_1) do
+        local var2119_2 = v_149.IsA
+        local var2120_2 = v_149:IsA("Model")
+        local var2123_2 = v_149.Name
+    end
+    local var2129_1 = workspace:GetDescendants()
+    for i_150, v_150 in ipairs(var2129_1) do
+        local var2133_2 = v_150.IsA
+        local var2134_2 = v_150:IsA("Model")
+        local var2137_2 = v_150.Name
+    end
+    local var2143_1 = workspace:GetDescendants()
+    for i_151, v_151 in ipairs(var2143_1) do
+        local var2147_2 = v_151.IsA
+        local var2148_2 = v_151:IsA("Model")
+        local var2151_2 = v_151.Name
+    end
+    local var2157_1 = workspace:GetDescendants()
+    for i_152, v_152 in ipairs(var2157_1) do
+        local var2161_2 = v_152.IsA
+        local var2162_2 = v_152:IsA("Model")
+        local var2165_2 = v_152.Name
+    end
+    local var2171_1 = workspace:GetDescendants()
+    for i_153, v_153 in ipairs(var2171_1) do
+        local var2175_2 = v_153.IsA
+        local var2176_2 = v_153:IsA("Model")
+        local var2179_2 = v_153.Name
+    end
+    local var2185_1 = workspace:GetDescendants()
+    for i_154, v_154 in ipairs(var2185_1) do
+        local var2189_2 = v_154.IsA
+        local var2190_2 = v_154:IsA("Model")
+        local var2193_2 = v_154.Name
+    end
+    local var2199_1 = workspace:GetDescendants()
+    for i_155, v_155 in ipairs(var2199_1) do
+        local var2203_2 = v_155.IsA
+        local var2204_2 = v_155:IsA("Model")
+        local var2207_2 = v_155.Name
+    end
+    local var2213_1 = workspace:GetDescendants()
+    for i_156, v_156 in ipairs(var2213_1) do
+        local var2217_2 = v_156.IsA
+        local var2218_2 = v_156:IsA("Model")
+        local var2221_2 = v_156.Name
+    end
+    local var2227_1 = workspace:GetDescendants()
+    for i_157, v_157 in ipairs(var2227_1) do
+        local var2231_2 = v_157.IsA
+        local var2232_2 = v_157:IsA("Model")
+        local var2235_2 = v_157.Name
+    end
+    local var2241_1 = workspace:GetDescendants()
+    for i_158, v_158 in ipairs(var2241_1) do
+        local var2245_2 = v_158.IsA
+        local var2246_2 = v_158:IsA("Model")
+        local var2249_2 = v_158.Name
+    end
+    local var2255_1 = workspace:GetDescendants()
+    for i_159, v_159 in ipairs(var2255_1) do
+        local var2259_2 = v_159.IsA
+        local var2260_2 = v_159:IsA("Model")
+        local var2263_2 = v_159.Name
+    end
+    local var2269_1 = workspace:GetDescendants()
+    for i_160, v_160 in ipairs(var2269_1) do
+        local var2273_2 = v_160.IsA
+        local var2274_2 = v_160:IsA("Model")
+        local var2277_2 = v_160.Name
+    end
+    local var2283_1 = workspace:GetDescendants()
+    for i_161, v_161 in ipairs(var2283_1) do
+        local var2287_2 = v_161.IsA
+        local var2288_2 = v_161:IsA("Model")
+        local var2291_2 = v_161.Name
+    end
+    local var2297_1 = workspace:GetDescendants()
+    for i_162, v_162 in ipairs(var2297_1) do
+        local var2301_2 = v_162.IsA
+        local var2302_2 = v_162:IsA("Model")
+        local var2305_2 = v_162.Name
+    end
+    local var2311_1 = workspace:GetDescendants()
+    for i_163, v_163 in ipairs(var2311_1) do
+        local var2315_2 = v_163.IsA
+        local var2316_2 = v_163:IsA("Model")
+        local var2319_2 = v_163.Name
+    end
+    local var2325_1 = workspace:GetDescendants()
+    for i_164, v_164 in ipairs(var2325_1) do
+        local var2329_2 = v_164.IsA
+        local var2330_2 = v_164:IsA("Model")
+        local var2333_2 = v_164.Name
+    end
+    local var2339_1 = workspace:GetDescendants()
+    for i_165, v_165 in ipairs(var2339_1) do
+        local var2343_2 = v_165.IsA
+        local var2344_2 = v_165:IsA("Model")
+        local var2347_2 = v_165.Name
+    end
+    local var2353_1 = workspace:GetDescendants()
+    for i_166, v_166 in ipairs(var2353_1) do
+        local var2357_2 = v_166.IsA
+        local var2358_2 = v_166:IsA("Model")
+        local var2361_2 = v_166.Name
+    end
+    local var2367_1 = workspace:GetDescendants()
+    for i_167, v_167 in ipairs(var2367_1) do
+        local var2371_2 = v_167.IsA
+        local var2372_2 = v_167:IsA("Model")
+        local var2375_2 = v_167.Name
+    end
+    local var2381_1 = workspace:GetDescendants()
+    for i_168, v_168 in ipairs(var2381_1) do
+        local var2385_2 = v_168.IsA
+        local var2386_2 = v_168:IsA("Model")
+        local var2389_2 = v_168.Name
+    end
+    local var2395_1 = workspace:GetDescendants()
+    for i_169, v_169 in ipairs(var2395_1) do
+        local var2399_2 = v_169.IsA
+        local var2400_2 = v_169:IsA("Model")
+        local var2403_2 = v_169.Name
+    end
+    local var2409_1 = workspace:GetDescendants()
+    for i_170, v_170 in ipairs(var2409_1) do
+        local var2413_2 = v_170.IsA
+        local var2414_2 = v_170:IsA("Model")
+        local var2417_2 = v_170.Name
+    end
+    local var2423_1 = workspace:GetDescendants()
+    for i_171, v_171 in ipairs(var2423_1) do
+        local var2427_2 = v_171.IsA
+        local var2428_2 = v_171:IsA("Model")
+        local var2431_2 = v_171.Name
+    end
+    local var2437_1 = workspace:GetDescendants()
+    for i_172, v_172 in ipairs(var2437_1) do
+        local var2441_2 = v_172.IsA
+        local var2442_2 = v_172:IsA("Model")
+        local var2445_2 = v_172.Name
+    end
+    local var2451_1 = workspace:GetDescendants()
+    for i_173, v_173 in ipairs(var2451_1) do
+        local var2455_2 = v_173.IsA
+        local var2456_2 = v_173:IsA("Model")
+        local var2459_2 = v_173.Name
+    end
+    local var2465_1 = workspace:GetDescendants()
+    for i_174, v_174 in ipairs(var2465_1) do
+        local var2469_2 = v_174.IsA
+        local var2470_2 = v_174:IsA("Model")
+        local var2473_2 = v_174.Name
+    end
+    local var2479_1 = workspace:GetDescendants()
+    for i_175, v_175 in ipairs(var2479_1) do
+        local var2483_2 = v_175.IsA
+        local var2484_2 = v_175:IsA("Model")
+        local var2487_2 = v_175.Name
+    end
+    local var2493_1 = workspace:GetDescendants()
+    for i_176, v_176 in ipairs(var2493_1) do
+        local var2497_2 = v_176.IsA
+        local var2498_2 = v_176:IsA("Model")
+        local var2501_2 = v_176.Name
+    end
+    local var2507_1 = workspace:GetDescendants()
+    for i_177, v_177 in ipairs(var2507_1) do
+        local var2511_2 = v_177.IsA
+        local var2512_2 = v_177:IsA("Model")
+        local var2515_2 = v_177.Name
+    end
+    local var2521_1 = workspace:GetDescendants()
+    for i_178, v_178 in ipairs(var2521_1) do
+        local var2525_2 = v_178.IsA
+        local var2526_2 = v_178:IsA("Model")
+        local var2529_2 = v_178.Name
+    end
+    local var2535_1 = workspace:GetDescendants()
+    for i_179, v_179 in ipairs(var2535_1) do
+        local var2539_2 = v_179.IsA
+        local var2540_2 = v_179:IsA("Model")
+        local var2543_2 = v_179.Name
+    end
+    local var2549_1 = workspace:GetDescendants()
+    for i_180, v_180 in ipairs(var2549_1) do
+        local var2553_2 = v_180.IsA
+        local var2554_2 = v_180:IsA("Model")
+        local var2557_2 = v_180.Name
+    end
+    local var2563_1 = workspace:GetDescendants()
+    for i_181, v_181 in ipairs(var2563_1) do
+        local var2567_2 = v_181.IsA
+        local var2568_2 = v_181:IsA("Model")
+        local var2571_2 = v_181.Name
+    end
+    local var2577_1 = workspace:GetDescendants()
+    for i_182, v_182 in ipairs(var2577_1) do
+        local var2581_2 = v_182.IsA
+        local var2582_2 = v_182:IsA("Model")
+        local var2585_2 = v_182.Name
+    end
+    local var2591_1 = workspace:GetDescendants()
+    for i_183, v_183 in ipairs(var2591_1) do
+        local var2595_2 = v_183.IsA
+        local var2596_2 = v_183:IsA("Model")
+        local var2599_2 = v_183.Name
+    end
+    local var2605_1 = workspace:GetDescendants()
+    for i_184, v_184 in ipairs(var2605_1) do
+        local var2609_2 = v_184.IsA
+        local var2610_2 = v_184:IsA("Model")
+        local var2613_2 = v_184.Name
+    end
+    local var2619_1 = workspace:GetDescendants()
+    for i_185, v_185 in ipairs(var2619_1) do
+        local var2623_2 = v_185.IsA
+        local var2624_2 = v_185:IsA("Model")
+        local var2627_2 = v_185.Name
+    end
+    local var2633_1 = workspace:GetDescendants()
+    for i_186, v_186 in ipairs(var2633_1) do
+        local var2637_2 = v_186.IsA
+        local var2638_2 = v_186:IsA("Model")
+        local var2641_2 = v_186.Name
+    end
+    local var2647_1 = workspace:GetDescendants()
+    for i_187, v_187 in ipairs(var2647_1) do
+        local var2651_2 = v_187.IsA
+        local var2652_2 = v_187:IsA("Model")
+        local var2655_2 = v_187.Name
+    end
+    local var2661_1 = workspace:GetDescendants()
+    for i_188, v_188 in ipairs(var2661_1) do
+        local var2665_2 = v_188.IsA
+        local var2666_2 = v_188:IsA("Model")
+        local var2669_2 = v_188.Name
+    end
+    local var2675_1 = workspace:GetDescendants()
+    for i_189, v_189 in ipairs(var2675_1) do
+        local var2679_2 = v_189.IsA
+        local var2680_2 = v_189:IsA("Model")
+        local var2683_2 = v_189.Name
+    end
+    local var2689_1 = workspace:GetDescendants()
+    for i_190, v_190 in ipairs(var2689_1) do
+        local var2693_2 = v_190.IsA
+        local var2694_2 = v_190:IsA("Model")
+        local var2697_2 = v_190.Name
+    end
+    local var2703_1 = workspace:GetDescendants()
+    for i_191, v_191 in ipairs(var2703_1) do
+        local var2707_2 = v_191.IsA
+        local var2708_2 = v_191:IsA("Model")
+        local var2711_2 = v_191.Name
+    end
+    local var2717_1 = workspace:GetDescendants()
+    for i_192, v_192 in ipairs(var2717_1) do
+        local var2721_2 = v_192.IsA
+        local var2722_2 = v_192:IsA("Model")
+        local var2725_2 = v_192.Name
+    end
+    local var2731_1 = workspace:GetDescendants()
+    for i_193, v_193 in ipairs(var2731_1) do
+        local var2735_2 = v_193.IsA
+        local var2736_2 = v_193:IsA("Model")
+        local var2739_2 = v_193.Name
+    end
+    local var2745_1 = workspace:GetDescendants()
+    for i_194, v_194 in ipairs(var2745_1) do
+        local var2749_2 = v_194.IsA
+        local var2750_2 = v_194:IsA("Model")
+        local var2753_2 = v_194.Name
+    end
+    local var2759_1 = workspace:GetDescendants()
+    for i_195, v_195 in ipairs(var2759_1) do
+        local var2763_2 = v_195.IsA
+        local var2764_2 = v_195:IsA("Model")
+        local var2767_2 = v_195.Name
+    end
+    local var2773_1 = workspace:GetDescendants()
+    for i_196, v_196 in ipairs(var2773_1) do
+        local var2777_2 = v_196.IsA
+        local var2778_2 = v_196:IsA("Model")
+        local var2781_2 = v_196.Name
+    end
+    local var2787_1 = workspace:GetDescendants()
+    for i_197, v_197 in ipairs(var2787_1) do
+        local var2791_2 = v_197.IsA
+        local var2792_2 = v_197:IsA("Model")
+        local var2795_2 = v_197.Name
+    end
+    local var2801_1 = workspace:GetDescendants()
+    for i_198, v_198 in ipairs(var2801_1) do
+        local var2805_2 = v_198.IsA
+        local var2806_2 = v_198:IsA("Model")
+        local var2809_2 = v_198.Name
+    end
+    local var2815_1 = workspace:GetDescendants()
+    for i_199, v_199 in ipairs(var2815_1) do
+        local var2819_2 = v_199.IsA
+        local var2820_2 = v_199:IsA("Model")
+        local var2823_2 = v_199.Name
+    end
+    local var2829_1 = workspace:GetDescendants()
+    error("[internal]:3099: too many operations")
+end)
+local var2832 = game:HttpGet("https://pastefy.app/6LgCd4jU/raw")
+local var2833 = {
+    var2832
+}
+local var2834 = loadstring(var2832)
+local var2835 = (getfenv and getfenv())
+local var2836 = (table and 12146287)
+error("[internal]:1469: attempt to index nil with 'GetService'")
