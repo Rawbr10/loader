@@ -1,5 +1,5 @@
 
-        =========================
+--        =========================
     
     --// This file was created by XHider discord.gg/r4zPyTndmA
 
@@ -2259,5 +2259,5 @@ Players.PlayerAdded:Connect(function(plr)
 end)
 
 checkForPlayer()
-        =========================
+     --   =========================
     
