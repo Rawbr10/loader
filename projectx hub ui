@@ -13,85 +13,18 @@ function Library:Window(options)
     local tabButtons = {}
     local tabContents = {}
 
-local HttpService = game:GetService("HttpService")
-local configName = options.Config.FileName or "AzcHub_Config.json"
-
-function Window:SaveConfig()
-    local data = {}
-    for key, value in pairs(states) do
-        data[key] = value
-    end
-    writefile(configName, HttpService:JSONEncode(data))
-end
-
-function Window:LoadConfig()
-    if not isfile(configName) then return end
-    local saved = HttpService:JSONDecode(readfile(configName))
-    for key, value in pairs(saved) do
-        states[key] = value
-    end
-end
-
-task.defer(function()
-    Window:LoadConfig()
-end)
-
-local oldToggle = Window.Toggle
-function Window:Toggle(tglOptions)
-    local TabToggle = oldToggle(self, tglOptions)
-    local originalCallback = tglOptions.Callback
-    tglOptions.Callback = function(val)
-        if originalCallback then originalCallback(val) end
-        Window:SaveConfig()
-    end
-    return TabToggle
-end
-
-local oldSlider = Window.Slider
-function Window:Slider(sldOptions)
-    local TabSlider = oldSlider(self, sldOptions)
-    local originalCallback = sldOptions.Callback
-    sldOptions.Callback = function(val)
-        if originalCallback then originalCallback(val) end
-        Window:SaveConfig()
-    end
-    return TabSlider
-end
-
-local oldTextbox = Window.Textbox
-function Window:Textbox(txtOptions)
-    local TabTextbox = oldTextbox(self, txtOptions)
-    local originalCallback = txtOptions.Callback
-    txtOptions.Callback = function(val)
-        if originalCallback then originalCallback(val) end
-        Window:SaveConfig()
-    end
-    return TabTextbox
-end
-
-local oldDropdown = Window.Dropdown
-function Window:Dropdown(ddOptions)
-    local TabDropdown = oldDropdown(self, ddOptions)
-    local originalCallback = ddOptions.Callback
-    ddOptions.Callback = function(val)
-        if originalCallback then originalCallback(val) end
-        Window:SaveConfig()
-    end
-    return TabDropdown
-end
-
     options = options or {}
     options.Config = options.Config or {}
 
     local Player = game.Players.LocalPlayer
     local PlayerGui = Player:WaitForChild("PlayerGui")
 
-    if PlayerGui:FindFirstChild("AzcHub_Window") then
-        PlayerGui.AzcHub_Window:Destroy()
+    if PlayerGui:FindFirstChild("HWUID") then
+        PlayerGui.HWUID:Destroy()
     end
 
     local ScreenGui = Instance.new("ScreenGui", PlayerGui)
-    ScreenGui.Name = "AzcHub_Window"
+    ScreenGui.Name = "HWUID"
     ScreenGui.ResetOnSpawn = false
     ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -176,7 +109,7 @@ end
     function Window:Tab(tabOptions)
         local Tab = {}
         local tabName = tabOptions.Title or "Tab"
-        local tabContentContainer = Instance.new("Frame") -- Invisible container to hold tab elements
+        local tabContentContainer = Instance.new("Frame")
         
         local Btn = Instance.new("TextButton", Tabs)
         Btn.Size, Btn.BackgroundColor3, Btn.Font, Btn.TextSize, Btn.TextColor3, Btn.Text = UDim2.new(1, -20, 0, 35), Color3.fromRGB(40, 40, 40), Silkscreen, 18, Color3.fromRGB(255, 255, 255), tabName
@@ -346,7 +279,7 @@ end
 
         return Tab
     end
-    
+
     task.wait()
     if #Tabs:GetChildren() > 1 then
         local firstTabName = tabButtons[Tabs:GetChildren()[1].Text] and Tabs:GetChildren()[1].Text
@@ -359,3 +292,70 @@ end
 end
 
 return Library
+
+local HttpService = game:GetService("HttpService")
+local configName = options.Config.FileName or "ProjectXHub_Config.json"
+
+function Window:SaveConfig()
+    local data = {}
+    for key, value in pairs(states) do
+        data[key] = value
+    end
+    writefile(configName, HttpService:JSONEncode(data))
+end
+
+function Window:LoadConfig()
+    if not isfile(configName) then return end
+    local saved = HttpService:JSONDecode(readfile(configName))
+    for key, value in pairs(saved) do
+        states[key] = value
+    end
+end
+
+task.defer(function()
+    Window:LoadConfig()
+end)
+
+local oldToggle = Window.Toggle
+function Window:Toggle(tglOptions)
+    local TabToggle = oldToggle(self, tglOptions)
+    local originalCallback = tglOptions.Callback
+    tglOptions.Callback = function(val)
+        if originalCallback then originalCallback(val) end
+        Window:SaveConfig()
+    end
+    return TabToggle
+end
+
+local oldSlider = Window.Slider
+function Window:Slider(sldOptions)
+    local TabSlider = oldSlider(self, sldOptions)
+    local originalCallback = sldOptions.Callback
+    sldOptions.Callback = function(val)
+        if originalCallback then originalCallback(val) end
+        Window:SaveConfig()
+    end
+    return TabSlider
+end
+
+local oldTextbox = Window.Textbox
+function Window:Textbox(txtOptions)
+    local TabTextbox = oldTextbox(self, txtOptions)
+    local originalCallback = txtOptions.Callback
+    txtOptions.Callback = function(val)
+        if originalCallback then originalCallback(val) end
+        Window:SaveConfig()
+    end
+    return TabTextbox
+end
+
+local oldDropdown = Window.Dropdown
+function Window:Dropdown(ddOptions)
+    local TabDropdown = oldDropdown(self, ddOptions)
+    local originalCallback = ddOptions.Callback
+    ddOptions.Callback = function(val)
+        if originalCallback then originalCallback(val) end
+        Window:SaveConfig()
+    end
+    return TabDropdown
+end
