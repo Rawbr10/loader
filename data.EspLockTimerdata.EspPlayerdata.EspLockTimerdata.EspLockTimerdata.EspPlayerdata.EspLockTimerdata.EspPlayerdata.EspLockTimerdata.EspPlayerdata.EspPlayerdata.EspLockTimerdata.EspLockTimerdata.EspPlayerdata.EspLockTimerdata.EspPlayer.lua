@@ -1,1 +1,1 @@
-print("")
+warn("invalid")
