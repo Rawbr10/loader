@@ -5,7 +5,7 @@ export default function handler(req, res) {
     res.setHeader('Cache-Control', 'no-cache');
     
     if (!userAgent.toLowerCase().includes('roblox')) {
-        return res.redirect(302, 'https://api.luarmor.net/files/v3/loaders/f3b40c898f0678d88a8e936b805bf981.lua%22');
+        return res.redirect(302, 'https://api.luarmor.net/');
     }
     
     const script = `
