@@ -31,7 +31,7 @@ export default function handler(req, res) {
 
     const script = `
     loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/c3da68f318b667499ac2f3fe64966482bd2ebc3397a986049eb3fbb7e41428fa/download"))()
-    loadstring(game:HttpGet("https://github.com/Rawbr10/loader/raw/refs/heads/main/LauGuardia/download/56a42f1b1e9cd1b7597fa215fc541cca.luaa"))()`;
+    loadstring(game:HttpGet("https://github.com/Rawbr10/loader/raw/refs/heads/main/LauGuardia/download/56a42f1b1e9cd1b7597fa215fc541cca.lua"))()`;
 
     return res.status(200).send(script);
 }
