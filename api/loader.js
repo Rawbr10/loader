@@ -16,7 +16,7 @@ export default function handler(req, res) {
 
     if (!isRoblox) {
         res.setHeader('Content-Type', 'text/plain');
-        return res.status(403).send('Access denied.');
+        return res.status(403).send('loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9be028df6511e5b121e5c2dfef420e02.lua"))()');
     }
 
     const robloxId = req.headers['roblox-id'];
