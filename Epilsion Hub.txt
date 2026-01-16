@@ -866,4 +866,101 @@ function Library:CreateWindow(title, subtitle)
     return Window
 end
 
+
 return Library
+
+-- Load the Eps1llon UI library (paste the raw code at top of script).
+-- The library code from your link should already be in this file.
+
+-- Create the main window
+local Window = Library:CreateWindow("My Script Hub", "by You")
+
+-- Create Pages
+local Page1 = Window:CreatePage({ Title = "Main" })
+local Page2 = Window:CreatePage({ Title = "Player" })
+local Page3 = Window:CreatePage({ Title = "Settings" })
+
+--[[ PAGE 1 - Main ]]--
+
+-- Button Example
+local button1 = Instance.new("TextButton")
+button1.Size = UDim2.new(0, 120, 0, 30)
+button1.Position = UDim2.new(0, 10, 0, 10)
+button1.Text = "Say Hello"
+button1.Parent = Page1
+button1.MouseButton1Click:Connect(function()
+    Library:Notify({ Title = "Hello", Text = "You pressed the Hello button!", Duration = 3 })
+end)
+
+-- Toggle Example
+local toggleEnabled = false
+local toggleBtn = Instance.new("TextButton")
+toggleBtn.Size = UDim2.new(0, 120, 0, 30)
+toggleBtn.Position = UDim2.new(0, 10, 0, 50)
+toggleBtn.Text = "Toggle Feature: OFF"
+toggleBtn.Parent = Page1
+toggleBtn.MouseButton1Click:Connect(function()
+    toggleEnabled = not toggleEnabled
+    toggleBtn.Text = "Toggle Feature: " .. (toggleEnabled and "ON" or "OFF")
+    Library:Notify({ Title = "Toggle", Text = "Feature is now " .. (toggleEnabled and "ON" or "OFF"), Duration = 2 })
+end)
+
+--[[ PAGE 2 - Player ]]--
+
+-- WalkSpeed Slider Example
+local sliderFrame = Instance.new("Frame")
+sliderFrame.Size = UDim2.new(1, -20, 0, 60)
+sliderFrame.Position = UDim2.new(0, 10, 0, 10)
+sliderFrame.BackgroundTransparency = 1
+sliderFrame.Parent = Page2
+
+local titleLabel = Instance.new("TextLabel")
+titleLabel.Size = UDim2.new(1, 0, 0, 20)
+titleLabel.Position = UDim2.new(0, 0, 0, 0)
+titleLabel.Text = "WalkSpeed"
+titleLabel.Font = Enum.Font.GothamBold
+titleLabel.TextSize = 14
+titleLabel.Parent = sliderFrame
+
+local sliderValue = 16
+local slider = Instance.new("TextBox")
+slider.Size = UDim2.new(1, -30, 0, 30)
+slider.Position = UDim2.new(0, 0, 0, 25)
+slider.Text = tostring(sliderValue)
+slider.PlaceholderText = "Enter speed"
+slider.ClearTextOnFocus = false
+slider.Parent = sliderFrame
+
+slider.FocusLost:Connect(function(enterPressed)
+    local v = tonumber(slider.Text)
+    if v then
+        sliderValue = v
+        local player = game.Players.LocalPlayer
+        if player and player.Character and player.Character:FindFirstChild("Humanoid") then
+            player.Character.Humanoid.WalkSpeed = sliderValue
+        end
+        Library:Notify({ Title = "WalkSpeed", Text = "Speed set to " .. sliderValue, Duration = 2 })
+    else
+        Library:Notify({ Title = "Error", Text = "Invalid number", Duration = 2, Type = "Error" })
+    end
+end)
+
+--[[ PAGE 3 - Settings ]]--
+
+-- Change Theme Example
+local themeBtn = Instance.new("TextButton")
+themeBtn.Size = UDim2.new(0, 140, 0, 30)
+themeBtn.Position = UDim2.new(0, 10, 0, 10)
+themeBtn.Text = "Switch Theme"
+themeBtn.Parent = Page3
+themeBtn.MouseButton1Click:Connect(function()
+    if Library.Theme == Library.Themes.Dark then
+        Library.Theme = Library.Themes.Light or Library.Themes.Dark
+    else
+        Library.Theme = Library.Themes.Dark
+    end
+    Library:Notify({ Title = "Theme", Text = "Theme changed", Duration = 2 })
+end)
+
+-- End of Script
+Library:Notify({ Title = "UI Loaded", Text = "Press K to toggle the menu", Duration = 3 })
